@@ -1338,8 +1338,8 @@
   }
  },
  "app": {
-  "versione": 4,
-  "url": "https://github.com/thiaass/gamblemon/releases/download/app-4/Gamblemon-app.zip",
-  "sha1": "859117f05a18c89706377fc8e557e17819acfb5b"
+  "versione": 5,
+  "url": "https://github.com/thiaass/gamblemon/releases/download/app-5/Gamblemon-app.zip",
+  "sha1": "7f6d6fc940f7d824c0938e700e34cca170ccadf0"
  }
 }

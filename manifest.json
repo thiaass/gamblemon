@@ -1336,5 +1336,10 @@
     "byte": 486992
    }
   }
+ },
+ "app": {
+  "versione": 1,
+  "url": "https://github.com/thiaass/gamblemon/releases/download/app-1/Gamblemon-app.zip",
+  "sha1": "6234f567700f44c54a61a5cea33f9cd409edeec2"
  }
 }

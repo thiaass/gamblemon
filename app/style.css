@@ -1229,3 +1229,10 @@ label#prop-scegli, label[for="prop-file"] { cursor: pointer; }
 .nav-voce { position: relative; }
 .com-premio-nav { position: absolute; top: 4px; right: 8px; width: 18px; height: 18px; image-rendering: pixelated; animation: com-moneta 2.4s ease-in-out infinite; pointer-events: none; }
 @keyframes com-moneta { 0%, 100% { transform: translateY(0); } 50% { transform: translateY(-3px); } }
+/* testa delle carte: faccia e nome a sinistra, categoria, stato e tempo a destra */
+.com-faccia { display: inline-block; background-repeat: no-repeat; background-color: var(--superficie); image-rendering: pixelated; border-radius: 3px; vertical-align: middle; margin-right: 6px; flex: 0 0 auto; }
+.com-chi-scrive { display: inline-flex; align-items: center; min-width: 0; }
+.com-chi-scrive .com-faccia { margin-right: 8px; }
+.com-nome { font-weight: 700; color: var(--testo); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.com-info { display: inline-flex; align-items: center; gap: 8px; margin-left: auto; flex: 0 0 auto; }
+.com-quando { color: var(--testo-tenue); white-space: nowrap; }

@@ -199,29 +199,36 @@
     return box;
   }
 
-  // la testa della skin Minecraft (mc-heads.net, dallo UUID del giocatore)
+  // la faccia del giocatore ritagliata dalla sua skin vera (worker /skin/<uuid>, da Mojang; mc-heads.net a
+  // qualcuno dava Steve): faccia (8,8) e sopra il "cappello" della skin (40,8), a pixel netti
   function faccia(uuid, lato) {
-    var i = el('img', 'com-faccia');
-    i.width = i.height = lato;
-    i.alt = '';
-    i.loading = 'lazy';
-    i.src = 'https://mc-heads.net/avatar/' + encodeURIComponent(uuid || 'MHF_Steve') + '/' + lato * 2;
+    var i = el('span', 'com-faccia');
+    var k = lato / 8, u = 'url(' + API + '/skin/' + encodeURIComponent(uuid || '') + ')';
+    i.style.width = i.style.height = lato + 'px';
+    i.style.backgroundImage = u + ',' + u;
+    i.style.backgroundSize = 64 * k + 'px ' + 64 * k + 'px';
+    i.style.backgroundPosition = -40 * k + 'px ' + -8 * k + 'px,' + -8 * k + 'px ' + -8 * k + 'px';
     return i;
   }
 
+  // a sinistra faccia e nome, a destra categoria, stato e da quanto (thias 24/10)
   function testa(p) {
     var t = el('div', 'com-testa');
-    t.appendChild(faccia(p.autoreUuid, 20));
-    t.appendChild(el('span', 'com-cat', CATEGORIE[p.categoria] || p.categoria));
-    var st = el('span', 'com-stato com-stato-' + p.stato, STATI[p.stato] || p.stato);
-    t.appendChild(st);
+    var chi = el('span', 'com-chi-scrive');
+    chi.appendChild(faccia(p.autoreUuid, 20));
+    chi.appendChild(el('span', 'com-nome', p.autore));
+    t.appendChild(chi);
+    var info = el('span', 'com-info');
+    info.appendChild(el('span', 'com-cat', CATEGORIE[p.categoria] || p.categoria));
+    info.appendChild(el('span', 'com-stato com-stato-' + p.stato, STATI[p.stato] || p.stato));
     if (p.nuova) {
       var n = el('span', 'com-nuova', 'NUOVA');
       n.setAttribute('data-nuova', p.id);
       n.title = 'Votala: conta per i Relic Coin gratis';
-      t.appendChild(n);
+      info.appendChild(n);
     }
-    t.appendChild(el('span', 'com-autore', p.autore + ' · ' + quando(p.aggiornata)));
+    info.appendChild(el('span', 'com-quando', quando(p.aggiornata)));
+    t.appendChild(info);
     return t;
   }
 

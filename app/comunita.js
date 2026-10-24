@@ -57,12 +57,57 @@
 
   function controllaIo() {
     return api('/io').then(function (d) {
+      var prima = collegato;
       collegato = !!d.collegato;
       nome = d.nome || '';
       mioUuid = d.uuid || '';
       disegnaCollega();
       if (collegato) clearInterval(timerIo);
+      if (collegato !== prima || !premiLetti) aggiornaPremi();
     }).catch(function () {});
+  }
+
+  /* ---------- Relic Coin gratis (thias 24/10): collegare l'app +2000, votare 3 idee nuove +500 ---------- */
+
+  var premi = null, premiLetti = false, timerFesta = null;
+
+  function aggiornaPremi() {
+    premiLetti = true;
+    return api('/premi').then(function (d) {
+      premi = d;
+      if (d.appenaCollegato) festa('App collegata: +' + d.collegamento + ' Relic Coin in arrivo in gioco!');
+      disegnaPremio();
+    }).catch(function () {});
+  }
+
+  function disegnaPremio() {
+    var box = $('com-premio'), nav = $('com-premio-nav');
+    var titolo = '', testo = '', quanti = '';
+    if (premi && !premi.collegato) {
+      titolo = 'Collega l’app';
+      testo = 'Scrivi /collega in gioco con il codice qui sotto';
+      quanti = '+' + premi.collegamento;
+    } else if (premi && premi.voti && premi.voti.nuove > 0) {
+      var v = premi.voti;
+      titolo = v.nuove === 1 ? 'Vota l’idea nuova' : 'Vota le idee nuove';
+      testo = v.contate + ' su ' + v.servono + ' votate · ' + (v.nuove === 1 ? 'ne resta 1' : 'ne restano ' + v.nuove);
+      quanti = '+' + v.premio;
+    }
+    box.hidden = !titolo;
+    if (nav) nav.hidden = !titolo;
+    if (!titolo) return;
+    $('com-premio-titolo').textContent = titolo;
+    $('com-premio-testo').textContent = testo;
+    $('com-premio-quanti').textContent = quanti;
+    box.setAttribute('aria-label', titolo + ': ' + quanti + ' Relic Coin gratis. ' + testo);
+  }
+
+  function festa(testo) {
+    var f = $('com-festa');
+    f.textContent = testo;
+    f.hidden = false;
+    clearTimeout(timerFesta);
+    timerFesta = setTimeout(function () { f.hidden = true; }, 6000);
   }
 
   function nuovoCodice() {
@@ -170,6 +215,12 @@
     t.appendChild(el('span', 'com-cat', CATEGORIE[p.categoria] || p.categoria));
     var st = el('span', 'com-stato com-stato-' + p.stato, STATI[p.stato] || p.stato);
     t.appendChild(st);
+    if (p.nuova) {
+      var n = el('span', 'com-nuova', 'NUOVA');
+      n.setAttribute('data-nuova', p.id);
+      n.title = 'Votala: conta per i Relic Coin gratis';
+      t.appendChild(n);
+    }
     t.appendChild(el('span', 'com-autore', p.autore + ' · ' + quando(p.aggiornata)));
     return t;
   }
@@ -189,7 +240,12 @@
         var nuovo = p.mioVoto === valore ? 0 : valore;
         api('/proposte/' + p.id + '/voto', 'POST', { valore: nuovo }).then(function (d) {
           p.su = d.su; p.giu = d.giu; p.mioVoto = d.mioVoto;
+          if (nuovo !== 0) p.nuova = false;
           box.replaceWith(voti(p));
+          var tag = document.querySelector('[data-nuova="' + p.id + '"]');
+          if (tag && !p.nuova) tag.remove();
+          if (premi && d.voti) { premi.voti = d.voti; disegnaPremio(); }
+          if (d.premio) festa('Grazie per i voti: +' + d.premio.monete + ' Relic Coin in arrivo in gioco!');
         }).catch(function (e) { alert(e.message); });
       };
       return b;
@@ -294,6 +350,8 @@
       lista.textContent = '';
       var ps = d.proposte.slice();
       if (scheda === 'idee' && ordina === 'voti') ps.sort(function (a, b) { return (b.su - b.giu) - (a.su - a.giu); });
+      // le idee nuove (da votare per il premio) in cima
+      if (scheda === 'idee') ps.sort(function (a, b) { return (b.nuova ? 1 : 0) - (a.nuova ? 1 : 0); });
       if (!ps.length) {
         lista.appendChild(el('p', 'com-vuoto', scheda === 'mie' ? 'Non hai ancora mandato proposte.' : 'Ancora nessuna idea approvata. Proponi la prima!'));
         return;
@@ -324,7 +382,11 @@
     $('com-nuovo').onclick = nuovoCodice;
     $('com-ordina').onchange = carica;
     $('com-grande').onclick = function () { this.hidden = true; };
+    // il riquadro porta dove si prende il premio: il codice da collegare o le idee da votare
+    $('com-premio').onclick = function () { vai(premi && premi.collegato ? 'idee' : 'proponi'); };
     controllaIo();
+    // i premi possono cambiare (idee nuove approvate): si ricontrolla ogni tanto
+    setInterval(aggiornaPremi, 120000);
     vai('proponi');
   }
 

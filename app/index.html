@@ -39,6 +39,7 @@
             <button class="nav-voce" type="button" data-sezione="proposte" aria-label="Proposte">
                 <svg class="nav-icona" viewBox="0 0 24 24" width="32" height="32" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M9 18h6M10 21h4"/><path d="M12 3a6 6 0 0 0-3.5 10.9c.6.5 1 1.2 1 2.1h5c0-.9.4-1.6 1-2.1A6 6 0 0 0 12 3z"/></svg>
                 <span class="nav-nome">Proposte</span>
+                <img id="com-premio-nav" class="com-premio-nav" src="img/relic-coin.png" alt="Relic Coin gratis" hidden>
             </button>
             <button class="nav-voce" type="button" data-sezione="extra" aria-label="Extra">
                 <svg class="nav-icona" viewBox="0 0 24 24" width="32" height="32" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M5 7h4a2 2 0 1 1 4 0h4v4a2 2 0 1 1 0 4v4H5z"/></svg>
@@ -113,6 +114,19 @@
 
             <!-- Proposte -->
             <section id="sez-proposte" class="sezione" hidden>
+                <!-- Relic Coin gratis per collegare l'app e votare le idee nuove (comunita.js) -->
+                <button id="com-premio" class="com-premio" type="button" hidden>
+                    <span class="com-premio-moneta" aria-hidden="true">
+                        <img src="img/relic-coin.png" alt="" width="56" height="56">
+                        <span class="com-premio-gratis">GRATIS</span>
+                    </span>
+                    <span class="com-premio-testi">
+                        <strong id="com-premio-titolo" class="com-premio-titolo"></strong>
+                        <span id="com-premio-testo" class="com-premio-testo"></span>
+                    </span>
+                    <span id="com-premio-quanti" class="com-premio-quanti"></span>
+                </button>
+                <p id="com-festa" class="com-festa" role="status" hidden></p>
                 <div class="com-schede" role="tablist" aria-label="Proposte">
                     <button type="button" role="tab" class="com-scheda" data-scheda="proponi">Proponi</button>
                     <button type="button" role="tab" class="com-scheda" data-scheda="idee">Idee della community</button>

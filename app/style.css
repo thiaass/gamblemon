@@ -1201,3 +1201,31 @@ label#prop-scegli, label[for="prop-file"] { cursor: pointer; }
 .ext-gruppo:first-child { margin-top: 0; }
 .ext-riga-modpack { opacity: 0.85; }
 .ext-gruppo + .ext-vuoto { padding: 12px 0; text-align: left; }
+
+/* ---------- Relic Coin gratis nelle Proposte (comunita.js) ---------- */
+.com-premio {
+  display: flex; align-items: center; gap: 16px; width: 100%; max-width: 640px; margin: 0 auto 16px;
+  padding: 12px 18px 12px 14px; text-align: left; color: var(--testo);
+  background: linear-gradient(90deg, #4a3a0c 0%, #2b2412 60%, var(--colonna) 100%);
+  border: 1px solid #b8901f; border-radius: 4px; box-shadow: 0 0 0 1px rgba(255, 200, 48, 0.15), 0 4px 18px rgba(255, 190, 40, 0.12);
+  transition: transform var(--durata), box-shadow var(--durata);
+}
+.com-premio:hover { transform: translateY(-1px); box-shadow: 0 0 0 1px rgba(255, 200, 48, 0.35), 0 6px 22px rgba(255, 190, 40, 0.22); }
+.com-premio:active { transform: translateY(0); }
+.com-premio:focus-visible { outline: 2px solid #ffd34d; outline-offset: 2px; }
+.com-premio-moneta { position: relative; flex: 0 0 auto; width: 56px; height: 56px; }
+.com-premio-moneta img { width: 56px; height: 56px; image-rendering: pixelated; animation: com-moneta 2.4s ease-in-out infinite; }
+.com-premio-gratis {
+  position: absolute; left: 50%; top: -6px; transform: translateX(-50%) rotate(-8deg);
+  padding: 1px 6px; font: 800 11px/1.3 var(--titoli); letter-spacing: 0.06em; color: #fff;
+  background: #d93a2b; border: 1px solid #ff8a7a; border-radius: 3px; box-shadow: 0 2px 4px rgba(0, 0, 0, 0.45);
+}
+.com-premio-testi { display: flex; flex-direction: column; gap: 2px; min-width: 0; flex: 1 1 auto; }
+.com-premio-titolo { font: 700 16px/1.25 var(--titoli); color: #ffe08a; }
+.com-premio-testo { font-size: 13px; color: var(--testo-tenue); }
+.com-premio-quanti { flex: 0 0 auto; font: 800 22px/1 var(--titoli); color: #ffd34d; text-shadow: 0 2px 0 rgba(0, 0, 0, 0.4); }
+.com-festa { max-width: 640px; margin: -8px auto 14px; padding: 8px 12px; border-radius: 4px; background: #24331a; border: 1px solid var(--verde); color: #c9f2b4; font-weight: 600; }
+.com-nuova { padding: 1px 6px; border-radius: 3px; font-weight: 800; font-size: 11px; color: #2b2000; background: #ffd34d; }
+.nav-voce { position: relative; }
+.com-premio-nav { position: absolute; top: 4px; right: 8px; width: 18px; height: 18px; image-rendering: pixelated; animation: com-moneta 2.4s ease-in-out infinite; pointer-events: none; }
+@keyframes com-moneta { 0%, 100% { transform: translateY(0); } 50% { transform: translateY(-3px); } }

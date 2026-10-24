@@ -740,7 +740,7 @@ function avvia() {
   mostraAccount(null);
   registraEventi();
   if (window.Proposte && typeof window.Proposte.init === 'function') {
-    try { window.Proposte.init(invia); } catch (err) { console.warn('Proposte non disponibile', err); }
+    try { window.Proposte.init(window.Comunita ? window.Comunita.invia : invia); } catch (err) { console.warn('Proposte non disponibile', err); }
   }
   if (wv) {
     wv.addEventListener('message', (e) => gestisci(e.data));

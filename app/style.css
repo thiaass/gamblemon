@@ -1056,3 +1056,60 @@ label#prop-scegli, label[for="prop-file"] { cursor: pointer; }
   }
   .lucciola { opacity: 0.5; }
 }
+
+/* ---------- Proposte online (comunita.js) ---------- */
+.com-schede { display: flex; align-items: center; gap: 4px; max-width: 640px; margin: 0 auto 18px; border-bottom: 1px solid var(--bordo); }
+.com-scheda { background: none; border: 0; border-bottom: 2px solid transparent; margin-bottom: -1px; padding: 8px 12px; color: var(--testo-tenue); font-weight: 600; transition: color var(--durata); }
+.com-scheda:hover { color: var(--testo); }
+.com-scheda.su { color: var(--testo); border-bottom-color: var(--accento); }
+.com-chi { margin-left: auto; font-size: 12px; color: var(--testo-tenue); }
+.com-ordina { margin-left: 8px; background: var(--superficie); border: 1px solid var(--bordo); border-radius: 4px; padding: 4px 8px; }
+.com-chi:empty + .com-ordina { margin-left: auto; }
+.com-collega { max-width: 640px; margin: 0 auto 18px; padding: 16px; background: var(--colonna); border: 1px solid var(--bordo); border-left: 3px solid var(--accento); border-radius: 4px; }
+.com-collega p { margin: 0 0 8px; }
+.com-collega-testo { color: var(--testo); }
+.com-comando { font: 600 22px/1.2 var(--titoli); user-select: text; -webkit-user-select: text; }
+.com-comando strong { color: var(--accento-chiaro); letter-spacing: 2px; }
+.com-nota { font-size: 12px; color: var(--testo-tenue); margin: 6px 0 0; }
+.com-apri { background: none; border: 0; padding: 0; color: var(--accento-chiaro); font-weight: 600; }
+.com-apri:hover { text-decoration: underline; }
+.com-elenco { max-width: 640px; margin: 0 auto; }
+.com-vuoto { text-align: center; color: var(--testo-tenue); padding: 48px 0; }
+.com-carta { background: var(--colonna); border: 1px solid var(--bordo); border-radius: 4px; padding: 16px; margin-bottom: 12px; animation: appare 200ms ease-out; }
+.com-testa { display: flex; align-items: center; gap: 8px; font-size: 12px; color: var(--testo-tenue); }
+.com-cat { background: var(--superficie); color: var(--testo); padding: 1px 8px; border-radius: 3px; font-weight: 600; }
+.com-stato { padding: 1px 8px; border-radius: 3px; font-weight: 600; background: var(--superficie); }
+.com-stato-approvata { color: var(--ok); }
+.com-stato-inserita { background: var(--accento); color: #fff; }
+.com-stato-consigliata { color: #e0a526; }
+.com-stato-rifiutata { color: var(--errore); }
+.com-autore { margin-left: auto; }
+.com-titolo { font-size: 18px; margin: 10px 0 6px; }
+.com-testo { margin: 0; white-space: pre-wrap; word-break: break-word; user-select: text; -webkit-user-select: text; }
+.com-link { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 10px; }
+.com-link-voce { background: var(--superficie); border: 1px solid var(--bordo); border-radius: 3px; padding: 2px 8px; color: #8ab4ff; font-size: 12px; max-width: 100%; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.com-link-voce:hover { background: var(--superficie-hover); }
+.com-imm { display: flex; gap: 8px; margin-top: 10px; flex-wrap: wrap; }
+.com-imm img { height: 110px; max-width: 200px; object-fit: cover; border-radius: 3px; cursor: zoom-in; background: var(--superficie); }
+.com-consiglio { margin: 12px 0 8px; padding: 8px 10px; border-left: 3px solid #e0a526; background: var(--area); }
+.com-piede { display: flex; align-items: center; margin-top: 12px; }
+.com-voti { display: flex; gap: 6px; }
+.com-voto { display: inline-flex; align-items: center; gap: 6px; background: var(--superficie); border: 1px solid var(--bordo); border-radius: 4px; padding: 4px 10px; color: var(--testo-tenue); font-weight: 600; transition: background var(--durata), color var(--durata); }
+.com-voto:hover { background: var(--superficie-hover); color: var(--testo); }
+.com-voto:active { transform: translateY(1px); }
+.com-voto.su { color: #fff; background: var(--accento); border-color: var(--accento); }
+.com-commenti { margin-top: 10px; padding-top: 10px; border-top: 1px solid var(--bordo); }
+.com-commento { margin: 0 0 6px; user-select: text; -webkit-user-select: text; word-break: break-word; }
+.com-commento strong { color: var(--accento-chiaro); }
+.com-scrivi { display: flex; gap: 8px; margin-top: 8px; }
+.com-scrivi .prop-input { flex: 1 1 auto; min-width: 0; }
+.com-correggi { display: flex; flex-direction: column; gap: 8px; margin-top: 10px; }
+.com-grande { position: fixed; inset: 0; z-index: 50; background: rgba(0, 0, 0, 0.85); display: flex; align-items: center; justify-content: center; cursor: zoom-out; }
+.com-grande img { max-width: 90%; max-height: 90%; }
+.com-elenco .prop-input { display: block; width: 100%; padding: 8px 10px; border: 1px solid var(--bordo); border-radius: 3px; background: var(--area); color: var(--testo); user-select: text; -webkit-user-select: text; }
+.com-elenco .prop-input:focus { border-color: var(--accento); outline: 1px solid var(--accento); outline-offset: 0; }
+.com-elenco textarea.prop-input { resize: vertical; min-height: 100px; }
+.com-elenco .prop-btn-sec { background: #3c3c3c; border: 1px solid #4a4a4a; border-radius: 3px; padding: 6px 14px; font-weight: 600; }
+.com-elenco .prop-btn-sec:hover:not(:disabled) { background: #474747; }
+.com-elenco .prop-invia { align-self: flex-start; background: var(--verde); border: 0; border-bottom: 3px solid var(--verde-scuro); border-radius: 3px; padding: 8px 18px; color: #fff; font-weight: 700; }
+.com-elenco .prop-invia:hover:not(:disabled) { background: var(--verde-hover); }

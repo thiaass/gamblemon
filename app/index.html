@@ -6,6 +6,7 @@
     <title>Gamblemon</title>
     <link rel="stylesheet" href="style.css">
     <script defer src="proposte.js"></script>
+    <script defer src="comunita.js"></script>
     <script defer src="app.js"></script>
 </head>
 <body class="tema-normale">
@@ -107,6 +108,23 @@
 
             <!-- Proposte -->
             <section id="sez-proposte" class="sezione" hidden>
+                <div class="com-schede" role="tablist" aria-label="Proposte">
+                    <button type="button" role="tab" class="com-scheda" data-scheda="proponi">Proponi</button>
+                    <button type="button" role="tab" class="com-scheda" data-scheda="idee">Idee della community</button>
+                    <button type="button" role="tab" class="com-scheda" data-scheda="mie">Le mie</button>
+                    <span id="com-chi" class="com-chi"></span>
+                    <select id="com-ordina" class="com-ordina" aria-label="Ordina" hidden>
+                        <option value="recenti">Più recenti</option>
+                        <option value="voti">Più votate</option>
+                    </select>
+                </div>
+                <div id="com-collega" class="com-collega" hidden>
+                    <p class="com-collega-testo">Per mandare proposte, votare e commentare collega l’app al tuo personaggio: entra nel server e scrivi in chat</p>
+                    <p class="com-comando">/collega <strong id="com-codice"></strong></p>
+                    <p class="com-nota">Il codice dura 10 minuti. <button id="com-nuovo" type="button" class="com-apri">Nuovo codice</button></p>
+                    <p id="com-collega-errore" class="errore"></p>
+                </div>
+                <div id="com-elenco" class="com-elenco" hidden><div id="com-lista"></div></div>
                 <form id="form-proposta" class="form-proposta" novalidate>
                     <h2 class="prop-titolo-sez">Proponi un’idea per il server</h2>
 
@@ -172,11 +190,13 @@
                         <p id="prop-esito" class="prop-esito" role="status"></p>
                     </div>
 
-                    <p class="prop-nota">Le proposte le legge lo staff di Gamblemon</p>
+                    <p class="prop-nota">Le legge thias. Se viene approvata ricevi 100 Doblonantichi, se finisce nel gioco 1000.</p>
                 </form>
             </section>
         </main>
     </div>
+
+    <div id="com-grande" class="com-grande" hidden><img id="com-grande-img" alt=""></div>
 
     <!-- Tutte le informazioni dell'aggiornamento (tasto Info) -->
     <div id="info" class="info" hidden role="dialog" aria-modal="true" aria-labelledby="info-titolo">

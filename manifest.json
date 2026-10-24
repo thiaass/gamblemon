@@ -403,8 +403,8 @@
      "file": "gamblemon-2.15.2.jar",
      "cartella": "mods",
      "url": "https://thiaass.github.io/gamblemon/file/gamblemon-2.15.2.jar",
-     "sha1": "6d0abf81aec27ca50267ed75b56adb7b5838e058",
-     "byte": 11925621
+     "sha1": "160c8df6e2008ddd55e700852cc558ad6894dc8c",
+     "byte": 11944365
     },
     {
      "file": "CobblemonMoreCosmetics Release v1.1.7-1.21.x.zip",
@@ -433,6 +433,13 @@
      "url": "https://cdn.modrinth.com/data/OsZiaDHq/versions/v7fZmKvM/CreativeCore_FABRIC_v2.13.48_mc1.21.1.jar",
      "sha1": "d134ccaf1030973e47f1b2eac7c834e438ae0ab6",
      "byte": 1257391
+    },
+    {
+     "file": "diorama-gamblemon-1.21.1.jar",
+     "cartella": "mods",
+     "url": "https://thiaass.github.io/gamblemon/file/diorama-gamblemon-1.21.1.jar",
+     "sha1": "7a141743666a23d6630994f882a8904a992b46ad",
+     "byte": 511905
     }
    ],
    "extra": {
@@ -847,8 +854,8 @@
      "file": "gamblemon-2.15.2.jar",
      "cartella": "mods",
      "url": "https://thiaass.github.io/gamblemon/file/gamblemon-2.15.2.jar",
-     "sha1": "6d0abf81aec27ca50267ed75b56adb7b5838e058",
-     "byte": 11925621
+     "sha1": "160c8df6e2008ddd55e700852cc558ad6894dc8c",
+     "byte": 11944365
     },
     {
      "file": "CobblemonMoreCosmetics Release v1.1.7-1.21.x.zip",
@@ -863,6 +870,13 @@
      "url": "https://cdn.modrinth.com/data/F4TxEYXe/versions/UbNNUg3g/Winterglide%27s%20Extra%20Animations%20%5BCobblemon%5D.zip",
      "sha1": "726d2cc33387263e854b217c4f01498ddd5f862f",
      "byte": 71707
+    },
+    {
+     "file": "diorama-gamblemon-1.21.1.jar",
+     "cartella": "mods",
+     "url": "https://thiaass.github.io/gamblemon/file/diorama-gamblemon-1.21.1.jar",
+     "sha1": "7a141743666a23d6630994f882a8904a992b46ad",
+     "byte": 511905
     }
    ],
    "extra": {
@@ -1298,8 +1312,8 @@
      "file": "gamblemon-2.15.2.jar",
      "cartella": "mods",
      "url": "https://thiaass.github.io/gamblemon/file/gamblemon-2.15.2.jar",
-     "sha1": "6d0abf81aec27ca50267ed75b56adb7b5838e058",
-     "byte": 11925621
+     "sha1": "160c8df6e2008ddd55e700852cc558ad6894dc8c",
+     "byte": 11944365
     },
     {
      "file": "CobblemonMoreCosmetics Release v1.1.7-1.21.x.zip",
@@ -1328,6 +1342,13 @@
      "url": "https://cdn.modrinth.com/data/OsZiaDHq/versions/v7fZmKvM/CreativeCore_FABRIC_v2.13.48_mc1.21.1.jar",
      "sha1": "d134ccaf1030973e47f1b2eac7c834e438ae0ab6",
      "byte": 1257391
+    },
+    {
+     "file": "diorama-gamblemon-1.21.1.jar",
+     "cartella": "mods",
+     "url": "https://thiaass.github.io/gamblemon/file/diorama-gamblemon-1.21.1.jar",
+     "sha1": "7a141743666a23d6630994f882a8904a992b46ad",
+     "byte": 511905
     }
    ],
    "extra": {

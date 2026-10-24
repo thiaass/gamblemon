@@ -62,12 +62,13 @@
       nome = d.nome || '';
       mioUuid = d.uuid || '';
       disegnaCollega();
+      fotoProfilo();
       if (collegato) clearInterval(timerIo);
       if (collegato !== prima || !premiLetti) aggiornaPremi();
     }).catch(function () {});
   }
 
-  /* ---------- Relic Coin gratis (thias 24/10): collegare l'app +2000, votare 3 idee nuove +500 ---------- */
+  /* ---------- Relic Coin gratis (thias 24/10): collegare l'app +2000, votare tutte le idee nuove +500 ---------- */
 
   var premi = null, premiLetti = false, timerFesta = null;
 
@@ -201,6 +202,18 @@
 
   // la faccia del giocatore ritagliata dalla sua skin vera (worker /skin/<uuid>, da Mojang; mc-heads.net a
   // qualcuno dava Steve): faccia (8,8) e sopra il "cappello" della skin (40,8), a pixel netti
+  /** In basso a sinistra, al posto del «?», la faccia della skin del giocatore collegato (thias 24/10). */
+  function fotoProfilo() {
+    var riga = $('account');
+    var q = riga && riga.querySelector('.account-iniziale');
+    if (!q || !collegato || !mioUuid) return;
+    q.textContent = '';
+    q.classList.add('con-faccia');
+    q.appendChild(faccia(mioUuid, 36));
+    riga.title = nome;
+    riga.setAttribute('aria-label', nome);
+  }
+
   function faccia(uuid, lato) {
     var i = el('span', 'com-faccia');
     var k = lato / 8, u = 'url(' + API + '/skin/' + encodeURIComponent(uuid || '') + ')';

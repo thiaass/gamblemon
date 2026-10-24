@@ -1236,3 +1236,9 @@ label#prop-scegli, label[for="prop-file"] { cursor: pointer; }
 .com-nome { font-weight: 700; color: var(--testo); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
 .com-info { display: inline-flex; align-items: center; gap: 8px; margin-left: auto; flex: 0 0 auto; }
 .com-quando { color: var(--testo-tenue); white-space: nowrap; }
+.account-iniziale.con-faccia { background: none; padding: 0; overflow: hidden; }
+.account-iniziale.con-faccia .com-faccia { display: block; margin: 0; image-rendering: pixelated; }
+
+/* Schermo intero: la pagina 960x600 ingrandita e centrata (app.js adattaSchermo) */
+html.intero { width: 100vw; height: 100vh; background: var(--colonna); }
+html.intero body { transform-origin: 0 0; }

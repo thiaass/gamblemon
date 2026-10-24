@@ -307,7 +307,8 @@ function mostraAccount(nome) {
       quadrato.setAttribute('aria-hidden', 'true');
       riga.appendChild(quadrato);
     }
-    quadrato.textContent = iniziale;
+    // con l'app collegata c'e' la faccia della skin (comunita.js): resta
+    if (!quadrato.classList.contains('con-faccia')) quadrato.textContent = iniziale;
     const etichetta = presente ? 'Accesso come ' + nome.trim() : 'Non hai ancora fatto l\'accesso';
     riga.title = etichetta;
     riga.setAttribute('aria-label', etichetta);
@@ -673,6 +674,9 @@ function ascolta(id, evento, gestore) {
 function registraEventi() {
   ascolta('barra', 'mousedown', mousedownBarra);
   ascolta('btn-riduci', 'click', () => invia({ tipo: 'riduci' }));
+  ascolta('btn-intero', 'click', () => invia({ tipo: 'schermo_intero' }));
+  window.addEventListener('resize', adattaSchermo);
+  adattaSchermo();
   ascolta('btn-chiudi', 'click', () => invia({ tipo: 'chiudi' }));
   ascolta('btn-gioca', 'click', clicGioca);
   ascolta('btn-esci', 'click', () => invia({ tipo: 'esci' }));
@@ -731,6 +735,18 @@ function ripristinaDemo() {
   const progresso = $('progresso');
   if (progresso) progresso.hidden = true;
   scriviStato('', false);
+}
+
+/* ---------- Schermo intero (thias 24/10) ---------- */
+
+// la pagina e' disegnata per 960x600: a finestra piu' grande si ingrandisce tutta in proporzione, centrata
+function adattaSchermo() {
+  const z = Math.min(window.innerWidth / 960, window.innerHeight / 600);
+  const intero = z > 1.02;
+  document.documentElement.classList.toggle('intero', intero);
+  document.body.style.transform = intero
+    ? 'translate(' + Math.round((window.innerWidth - 960 * z) / 2) + 'px,' + Math.round((window.innerHeight - 600 * z) / 2) + 'px) scale(' + z + ')'
+    : '';
 }
 
 /* ---------- Avvio ---------- */

@@ -13,7 +13,7 @@
   var MAX_LATO = 1600, MAX_BYTE = 1400000;
 
   var $ = function (id) { return document.getElementById(id); };
-  var token = null, collegato = false, nome = '', timerIo = null, scheda = 'proponi';
+  var token = null, collegato = false, nome = '', mioUuid = '', timerIo = null, scheda = 'proponi';
 
   function leggiToken() {
     try { token = localStorage.getItem('gm-token'); } catch (e) {}
@@ -59,6 +59,7 @@
     return api('/io').then(function (d) {
       collegato = !!d.collegato;
       nome = d.nome || '';
+      mioUuid = d.uuid || '';
       disegnaCollega();
       if (collegato) clearInterval(timerIo);
     }).catch(function () {});
@@ -153,8 +154,19 @@
     return box;
   }
 
+  // la testa della skin Minecraft (mc-heads.net, dallo UUID del giocatore)
+  function faccia(uuid, lato) {
+    var i = el('img', 'com-faccia');
+    i.width = i.height = lato;
+    i.alt = '';
+    i.loading = 'lazy';
+    i.src = 'https://mc-heads.net/avatar/' + encodeURIComponent(uuid || 'MHF_Steve') + '/' + lato * 2;
+    return i;
+  }
+
   function testa(p) {
     var t = el('div', 'com-testa');
+    t.appendChild(faccia(p.autoreUuid, 20));
     t.appendChild(el('span', 'com-cat', CATEGORIE[p.categoria] || p.categoria));
     var st = el('span', 'com-stato com-stato-' + p.stato, STATI[p.stato] || p.stato);
     t.appendChild(st);
@@ -198,6 +210,7 @@
       api('/proposte/' + p.id + '/commenti').then(function (d) {
         d.commenti.forEach(function (c) {
           var r = el('p', 'com-commento');
+          r.appendChild(faccia(c.uuid, 16));
           r.appendChild(el('strong', null, c.nome));
           r.appendChild(document.createTextNode(' ' + c.testo));
           lista.appendChild(r);
@@ -215,6 +228,7 @@
         b.disabled = true;
         api('/proposte/' + p.id + '/commenti', 'POST', { testo: t.value }).then(function () {
           var r = el('p', 'com-commento');
+          r.appendChild(faccia(mioUuid, 16));
           r.appendChild(el('strong', null, nome));
           r.appendChild(document.createTextNode(' ' + t.value.trim()));
           lista.appendChild(r);

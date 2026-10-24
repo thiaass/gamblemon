@@ -22,7 +22,8 @@ const DEMO_STATO = {
 const SEZIONI = {
   gioca: 'Gioca',
   novita: 'Novità',
-  proposte: 'Proposte'
+  proposte: 'Proposte',
+  extra: 'Extra'
 };
 
 /* Stato interno della pagina */
@@ -64,6 +65,10 @@ function gestisci(dati) {
     case 'codice': gestisciCodice(d); break;
     case 'fatto': gestisciFatto(d); break;
     case 'errore': gestisciErrore(d); break;
+    case 'extra_stato':
+    case 'extra_esito':
+      if (window.Extra && typeof window.Extra.messaggio === 'function') window.Extra.messaggio(d);
+      break;
     case 'proposta_esito':
       if (window.Proposte && typeof window.Proposte.esito === 'function') window.Proposte.esito(d);
       break;
@@ -198,6 +203,7 @@ function mostraEdizioni(lista, scelta) {
 
 function segnaEdizione(id) {
   ui.edizione = id;
+  if (window.Extra && typeof window.Extra.edizione === 'function') window.Extra.edizione(id);
   const desc = $('edizione-desc');
   if (desc) desc.textContent = typeof ui.descrizioni[id] === 'string' ? ui.descrizioni[id] : '';
   document.querySelectorAll('#edizione-lista .edizione').forEach((btn) => {
@@ -741,6 +747,9 @@ function avvia() {
   registraEventi();
   if (window.Proposte && typeof window.Proposte.init === 'function') {
     try { window.Proposte.init(window.Comunita ? window.Comunita.invia : invia); } catch (err) { console.warn('Proposte non disponibile', err); }
+  }
+  if (window.Extra && typeof window.Extra.init === 'function') {
+    try { window.Extra.init(invia); } catch (err) { console.warn('Extra non disponibile', err); }
   }
   if (wv) {
     wv.addEventListener('message', (e) => gestisci(e.data));

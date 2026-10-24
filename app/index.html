@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="style.css">
     <script defer src="proposte.js"></script>
     <script defer src="comunita.js"></script>
+    <script defer src="extra.js"></script>
     <script defer src="app.js"></script>
 </head>
 <body class="tema-normale">
@@ -38,6 +39,10 @@
             <button class="nav-voce" type="button" data-sezione="proposte" aria-label="Proposte">
                 <svg class="nav-icona" viewBox="0 0 24 24" width="32" height="32" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M9 18h6M10 21h4"/><path d="M12 3a6 6 0 0 0-3.5 10.9c.6.5 1 1.2 1 2.1h5c0-.9.4-1.6 1-2.1A6 6 0 0 0 12 3z"/></svg>
                 <span class="nav-nome">Proposte</span>
+            </button>
+            <button class="nav-voce" type="button" data-sezione="extra" aria-label="Extra">
+                <svg class="nav-icona" viewBox="0 0 24 24" width="32" height="32" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M5 7h4a2 2 0 1 1 4 0h4v4a2 2 0 1 1 0 4v4H5z"/></svg>
+                <span class="nav-nome">Extra</span>
             </button>
             <div class="colonna-fondo">
                 <div id="account" class="account">
@@ -192,6 +197,31 @@
 
                     <p class="prop-nota">Le legge thias. Se viene approvata ricevi 100 Doblonantichi, se finisce nel gioco 1000.</p>
                 </form>
+            </section>
+
+            <!-- Extra -->
+            <section id="sez-extra" class="sezione" hidden>
+                <div class="ext-barra">
+                    <div class="ext-schede" role="tablist">
+                        <button type="button" class="ext-scheda" role="tab" data-scheda="mod">Mod</button>
+                        <button type="button" class="ext-scheda" role="tab" data-scheda="resourcepack">Resource pack</button>
+                        <button type="button" class="ext-scheda" role="tab" data-scheda="shader">Shader</button>
+                        <button type="button" class="ext-scheda" role="tab" data-scheda="installati">Installati</button>
+                    </div>
+                    <span id="ext-edizione" class="ext-edizione">Classic</span>
+                </div>
+                <div class="ext-ricerca" id="ext-ricerca">
+                    <input id="ext-cerca" class="ext-input" type="search" placeholder="Cerca su Modrinth…" aria-label="Cerca">
+                    <select id="ext-ordine" class="ext-select" aria-label="Ordina per">
+                        <option value="relevance">Rilevanza</option>
+                        <option value="downloads">Download</option>
+                        <option value="updated">Aggiornate di recente</option>
+                    </select>
+                </div>
+                <div id="ext-esito" class="ext-esito" role="status" aria-live="polite" hidden></div>
+                <div id="ext-lista" class="ext-lista"></div>
+                <button id="ext-altri" class="ext-altri" type="button" hidden>Mostra altri</button>
+                <p class="ext-nota">Da Modrinth. Le mod che cambiano il gioco sul server o che rompono il modpack non si possono installare.</p>
             </section>
         </main>
     </div>

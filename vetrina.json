@@ -1,0 +1,139 @@
+{
+  "tema": "halloween",
+  "aggiornamento": {
+    "versione": "2.15",
+    "nome": "PokéHalloween",
+    "data": "2026-10-24",
+    "immagine": "img/aggiornamento-2.15.webp",
+    "testo": "Zucche che ti fissano, fantasmi senza vergogna e uno Snorlax con una fame mostruosa. Dolcetto o Pokéball?",
+    "dettagli": [
+      {
+        "titolo": "Evento PokéHalloween",
+        "punti": [
+          "Dal 24 ottobre al 2 novembre: dodici quest spettrali, ognuna con almeno 900 Doblonantichi.",
+          "Ogni quest regala la skin di Halloween di una linea evolutiva intera, pre-evoluzioni comprese.",
+          "Chi le completa tutte riceve altri 10.000 Doblonantichi.",
+          "Le quest si trovano nel menu Quest, nella scheda Halloween."
+        ]
+      },
+      {
+        "titolo": "Le skin",
+        "punti": [
+          "Gengar Fantasma, Diglett Sepolto, Applin Zucca Maledetta, Mimikyu Strega, Golett Infernale, Aerodactyl Scheletro.",
+          "Snorlax Zucca Ingorda, Squirtle Corrotto, Clefairy Demoniaca, Sylveon Spettrale, Decidueye Mietitore, Primarina Sirena Oscura.",
+          "Aerodactyl Scheletro si ottiene facendo rinascere il fossile di Aerodactyl.",
+          "Le skin si mettono e si tolgono dalla scheda Skin del Pokémenu."
+        ]
+      },
+      {
+        "titolo": "Zucche per la linea di Bulbasaur",
+        "punti": [
+          "Bulbasaur, Ivysaur e Venusaur possono indossare una zucca o una jack o’ lantern come cosmetico."
+        ]
+      },
+      {
+        "titolo": "Spawn e correzioni",
+        "punti": [
+          "Spawn dei Pokémon rari ribilanciati: Raro al 3%, Epico 1 su 200.",
+          "Risolto il crash del PC con Oricorio in forma Pa’u."
+        ]
+      },
+      {
+        "titolo": "Aggiornamenti più leggeri",
+        "punti": [
+          "La grafica di Gamblemon arriva dal server quando entri: niente più download per le modifiche alle texture.",
+          "Gli aggiornamenti che toccano solo il server non chiedono più di riavviare il gioco.",
+          "Arriva l’app Gamblemon: niente più CurseForge, il modpack si aggiorna da solo e Gioca ti porta dritto nel server."
+        ]
+      }
+    ]
+  },
+  "titolo": "Halloween a Gamblemon",
+  "sottotitolo": "Zucche, fantasmi e nuove skin: la notte più spaventosa dell'anno è arrivata.",
+  "eventi": [
+    {
+      "id": "halloween-2026",
+      "nome": "Halloween 2026",
+      "attivo": true,
+      "dal": "2026-10-24",
+      "al": "2026-11-02",
+      "testo": "Dodici quest a tema ti aspettano tra zucche intagliate e fantasmi affamati. Completale tutte per ottenere le nuove skin di Halloween e 10.000 Doblonantichi.",
+      "immagine": "img/tutte-le-skin.png"
+    }
+  ],
+  "novita": [
+    {
+      "titolo": "Le skin di Halloween sono arrivate",
+      "data": "2026-10-24",
+      "tag": "Evento",
+      "testo": "Dodici quest che regalano le nuove skin di Halloween. Chi le completa tutte riceve anche 10.000 Doblonantichi."
+    },
+    {
+      "titolo": "Golurk Zucca",
+      "data": "2026-10-24",
+      "tag": "Skin",
+      "testo": "Il corpo di Golurk diventa una zucca intagliata, con una candela accesa dentro e due occhietti sul gambo.",
+      "immagine": "img/golurk.png"
+    },
+    {
+      "titolo": "Snorlax Zucca Ingorda",
+      "data": "2026-10-24",
+      "tag": "Skin",
+      "testo": "Snorlax si traveste da mostro, con occhi spalancati e una fame che non si placa neanche a Halloween.",
+      "immagine": "img/snorlax.png"
+    },
+    {
+      "titolo": "Munchlax Zucca",
+      "data": "2026-10-24",
+      "tag": "Skin",
+      "testo": "Il piccolo Munchlax si presenta in versione zucca, pronto a fare dolcetto o scherzetto.",
+      "immagine": "img/linea-snorlax.png"
+    },
+    {
+      "titolo": "Aerodactyl Scheletro",
+      "data": "2026-10-24",
+      "tag": "Skin",
+      "testo": "Si ottiene facendo rinascere il fossile di Aerodactyl: dalle ossa torna a volare, più spettrale che mai.",
+      "immagine": "img/aerodactyl.png"
+    },
+    {
+      "titolo": "Mimikyu Strega",
+      "data": "2026-10-24",
+      "tag": "Skin",
+      "testo": "Mimikyu indossa il cappello da strega e nasconde il suo mistero sotto un mantello di notte.",
+      "immagine": "img/mimikyu.png"
+    },
+    {
+      "titolo": "Primarina Sirena Oscura",
+      "data": "2026-10-24",
+      "tag": "Quest",
+      "testo": "Nuova quest: cattura o usa un Pokémon Acqua di notte e Primarina si mostrerà nella sua veste da sirena oscura.",
+      "immagine": "img/primarina.png"
+    },
+    {
+      "titolo": "Popplio e Brionne",
+      "data": "2026-10-24",
+      "tag": "Skin",
+      "testo": "La linea evolutiva di Primarina si veste di notte: Popplio e Brionne fanno il loro debutto spettrale.",
+      "immagine": "img/popplio-brionne.png"
+    },
+    {
+      "titolo": "Gengar, Golett e Diglett",
+      "data": "2026-10-24",
+      "tag": "Skin",
+      "testo": "Arrivano le skin di Halloween per le linee di Gengar Fantasma, Golett e Diglett, pronte a infestare il server.",
+      "immagine": "img/linee-gengar-golett-diglett.png"
+    },
+    {
+      "titolo": "App Gamblemon",
+      "data": "2026-10-20",
+      "tag": "App",
+      "testo": "Addio a CurseForge: il modpack si aggiorna da solo e il pulsante GIOCA ti porta dritto nel server."
+    }
+  ],
+  "edizioni": {
+    "classic": "L'esperienza completa, va bene sulla maggior parte dei PC. Usa 6 GB di RAM.",
+    "light": "Per i PC meno potenti: meno effetti e più FPS. Bastano 4 GB di RAM.",
+    "ultra": "Shader Complementary, foglie più belle e dettagli in più. Per PC potenti: 8 GB di RAM."
+  }
+}

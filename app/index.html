@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gamblemon</title>
+    <link rel="stylesheet" href="style.css">
+    <script defer src="proposte.js"></script>
+    <script defer src="app.js"></script>
+</head>
+<body class="tema-normale">
+    <!-- Barra superiore -->
+    <header id="barra" class="barra">
+        <img class="barra-logo" src="img/logo.png" alt="">
+        <span id="barra-titolo" class="barra-titolo">Gioca</span>
+        <div class="barra-tasti">
+            <button id="btn-riduci" class="tasto-finestra" type="button" aria-label="Riduci a icona">
+                <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true" focusable="false"><path d="M5 12h14"/></svg>
+            </button>
+            <button id="btn-chiudi" class="tasto-finestra tasto-chiudi" type="button" aria-label="Chiudi">
+                <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true" focusable="false"><path d="M6 6l12 12M18 6L6 18"/></svg>
+            </button>
+        </div>
+    </header>
+
+    <div class="corpo">
+        <!-- Colonna a sinistra -->
+        <nav id="colonna" class="colonna" aria-label="Sezioni">
+            <button class="nav-voce attiva" type="button" data-sezione="gioca" aria-label="Gioca" aria-current="page">
+                <svg class="nav-icona" viewBox="0 0 24 24" width="32" height="32" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M7 4.5v15l12-7.5z"/></svg>
+                <span class="nav-nome">Gioca</span>
+            </button>
+            <button class="nav-voce" type="button" data-sezione="novita" aria-label="Novità">
+                <svg class="nav-icona" viewBox="0 0 24 24" width="32" height="32" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M4 5h13a1 1 0 0 1 1 1v13H6a2 2 0 0 1-2-2z"/><path d="M18 9h2v8a2 2 0 0 1-2 2"/><path d="M8 9h6M8 12h6M8 15h4"/></svg>
+                <span class="nav-nome">Novità</span>
+            </button>
+            <button class="nav-voce" type="button" data-sezione="proposte" aria-label="Proposte">
+                <svg class="nav-icona" viewBox="0 0 24 24" width="32" height="32" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M9 18h6M10 21h4"/><path d="M12 3a6 6 0 0 0-3.5 10.9c.6.5 1 1.2 1 2.1h5c0-.9.4-1.6 1-2.1A6 6 0 0 0 12 3z"/></svg>
+                <span class="nav-nome">Proposte</span>
+            </button>
+            <div class="colonna-fondo">
+                <div id="account" class="account">
+                    <span class="account-iniziale"></span>
+                </div>
+                <button id="btn-esci" class="btn-esci" type="button" aria-label="Esci dall'account" title="Esci dall'account" hidden>
+                    <svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M10 4H6a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h4"/><path d="M15 8l4 4-4 4M19 12H9"/></svg>
+                </button>
+            </div>
+        </nav>
+
+        <main class="area" id="area">
+            <!-- Gioca -->
+            <section id="sez-gioca" class="sezione">
+                <div id="banner" class="banner" hidden>
+                    <div id="fx-halloween" class="fx-halloween" aria-hidden="true">
+                        <span class="lucciola"></span>
+                        <span class="lucciola"></span>
+                        <span class="lucciola"></span>
+                        <span class="lucciola"></span>
+                        <span class="lucciola"></span>
+                        <span class="lucciola"></span>
+                        <span class="lucciola"></span>
+                        <span class="lucciola"></span>
+                        <span class="lucciola"></span>
+                        <span class="lucciola"></span>
+                        <svg class="pipistrello" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M2 12c5 0 5-8 10-8s5 8 10 8v2c-5 0-5 8-10 8s-5-8-10-8z" fill="currentColor"/></svg>
+                        <svg class="pipistrello" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M2 12c5 0 5-8 10-8s5 8 10 8v2c-5 0-5 8-10 8s-5-8-10-8z" fill="currentColor"/></svg>
+                        <svg class="pipistrello" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M2 12c5 0 5-8 10-8s5 8 10 8v2c-5 0-5 8-10 8s-5-8-10-8z" fill="currentColor"/></svg>
+                    </div>
+                </div>
+
+                <div id="riquadro-codice" class="riquadro-codice" hidden>
+                    <p class="codice-etichetta">Il tuo codice di accesso</p>
+                    <p id="codice-valore" class="codice-valore"></p>
+                    <a id="codice-sito" class="link" href="#"></a>
+                    <p class="codice-nota">Il codice è già copiato: incollalo nella pagina che si è aperta</p>
+                </div>
+
+                <footer id="barra-gioca" class="barra-gioca">
+                    <div class="gioca-sinistra">
+                        <div id="edizioni" class="edizioni">
+                            <button id="edizione-btn" class="edizione-btn" type="button" aria-haspopup="listbox" aria-expanded="false" aria-controls="edizione-lista">
+                                <span class="edizione-nome"></span>
+                                <svg class="edizione-freccia" viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M6 9l6 6 6-6"/></svg>
+                            </button>
+                            <div id="edizione-lista" class="edizione-lista" role="listbox" aria-label="Edizione" hidden></div>
+                        </div>
+                        <p id="edizione-desc" class="edizione-desc" aria-live="polite"></p>
+                    </div>
+                    <div class="gioca-centro">
+                        <button id="btn-gioca" class="gioca" type="button">GIOCA</button>
+                    </div>
+                    <div class="gioca-destra">
+                        <p id="stato-testo" class="stato-testo" role="status" aria-live="polite"></p>
+                        <div id="progresso" class="progresso" role="progressbar" aria-label="Avanzamento" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0">
+                            <div id="progresso-barra" class="progresso-barra"></div>
+                        </div>
+                        <p id="nota-launcher" class="nota-launcher" hidden>Si apre il launcher di Minecraft: premi Gioca anche lì</p>
+                    </div>
+                </footer>
+            </section>
+
+            <!-- Novità -->
+            <section id="sez-novita" class="sezione" hidden>
+                <div id="novita" class="novita"></div>
+            </section>
+
+            <!-- Proposte -->
+            <section id="sez-proposte" class="sezione" hidden>
+                <form id="form-proposta" class="form-proposta" novalidate>
+                    <h2 class="prop-titolo-sez">Proponi un’idea per il server</h2>
+
+                    <div class="prop-campo">
+                        <span id="prop-categorie-etichetta" class="prop-etichetta">Categoria</span>
+                        <div id="prop-categorie" class="prop-categorie" role="radiogroup" aria-labelledby="prop-categorie-etichetta">
+                            <button type="button" role="radio" class="prop-cat" data-cat="meccaniche" aria-checked="true">
+                                <svg viewBox="0 0 24 24" width="28" height="28" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><circle cx="12" cy="12" r="3"/><path d="M12 2.5v3M12 18.5v3M2.5 12h3M18.5 12h3M5.3 5.3l2.1 2.1M16.6 16.6l2.1 2.1M18.7 5.3l-2.1 2.1M7.4 16.6l-2.1 2.1"/><circle cx="12" cy="12" r="6.5"/></svg>
+                                <span>Meccaniche</span>
+                            </button>
+                            <button type="button" role="radio" class="prop-cat" data-cat="oggetti" aria-checked="false">
+                                <svg viewBox="0 0 24 24" width="28" height="28" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M12 3l8 4.5v9L12 21l-8-4.5v-9z"/><path d="M4 7.5l8 4.5 8-4.5M12 12v9"/></svg>
+                                <span>Oggetti</span>
+                            </button>
+                            <button type="button" role="radio" class="prop-cat" data-cat="skin" aria-checked="false">
+                                <svg viewBox="0 0 24 24" width="28" height="28" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M8.5 4L3 7l2 4 3-1v10h8V10l3 1 2-4-5.500-3a3.500 3.500 0 0 1-7 0z"/></svg>
+                                <span>Skin</span>
+                            </button>
+                            <button type="button" role="radio" class="prop-cat" data-cat="altro" aria-checked="false">
+                                <svg viewBox="0 0 24 24" width="28" height="28" fill="currentColor" aria-hidden="true" focusable="false"><circle cx="5.500" cy="12" r="2"/><circle cx="12" cy="12" r="2"/><circle cx="18.500" cy="12" r="2"/></svg>
+                                <span>Altro</span>
+                            </button>
+                        </div>
+                    </div>
+
+                    <div class="prop-campo">
+                        <div class="prop-riga-etichetta">
+                            <label class="prop-etichetta" for="prop-titolo">Titolo</label>
+                            <span id="prop-contatore-titolo" class="prop-contatore">0 / 80</span>
+                        </div>
+                        <input id="prop-titolo" class="prop-input" type="text" maxlength="80" autocomplete="off" placeholder="Una frase che riassume l'idea" required>
+                    </div>
+
+                    <div class="prop-campo">
+                        <div class="prop-riga-etichetta">
+                            <label class="prop-etichetta" for="prop-testo">Descrizione</label>
+                            <span id="prop-contatore-testo" class="prop-contatore">0 / 2000</span>
+                        </div>
+                        <textarea id="prop-testo" class="prop-input prop-area" maxlength="2000" rows="6" placeholder="Come funzionerebbe e perché sarebbe bella" required></textarea>
+                    </div>
+
+                    <div class="prop-campo">
+                        <span class="prop-etichetta">Link (facoltativi)</span>
+                        <div id="prop-link-lista" class="prop-link-lista"></div>
+                        <button id="prop-link-aggiungi" class="prop-btn-sec" type="button">Aggiungi link</button>
+                    </div>
+
+                    <div class="prop-campo">
+                        <span class="prop-etichetta">Immagini (fino a 4, max 4 MB ciascuna)</span>
+                        <div id="prop-drop" class="prop-drop">
+                            <p class="prop-drop-testo">Trascina qui le immagini</p>
+                            <p class="prop-drop-formati">PNG, JPG, WEBP o GIF</p>
+                            <label id="prop-scegli" class="prop-btn-sec" for="prop-file">Scegli dal computer</label>
+                            <input id="prop-file" class="prop-file" type="file" accept="image/png,image/jpeg,image/webp,image/gif" multiple>
+                        </div>
+                        <div id="prop-anteprime" class="prop-anteprime"></div>
+                    </div>
+
+                    <p id="prop-errore" class="prop-errore" role="alert"></p>
+
+                    <div class="prop-azioni">
+                        <button id="prop-invia" class="prop-invia" type="submit" disabled>Invia proposta</button>
+                        <p id="prop-esito" class="prop-esito" role="status"></p>
+                    </div>
+
+                    <p class="prop-nota">Le proposte le legge lo staff di Gamblemon</p>
+                </form>
+            </section>
+        </main>
+    </div>
+
+    <!-- Tutte le informazioni dell'aggiornamento (tasto Info) -->
+    <div id="info" class="info" hidden role="dialog" aria-modal="true" aria-labelledby="info-titolo">
+        <div class="info-pannello">
+            <div class="info-testa">
+                <h2 id="info-titolo" class="info-titolo"></h2>
+                <button id="info-chiudi" class="info-chiudi" type="button">Chiudi</button>
+            </div>
+            <div id="info-corpo" class="info-corpo"></div>
+        </div>
+    </div>
+
+    <!-- Overlay per immagini ingrandite -->
+    <div id="overlay" class="overlay" hidden role="dialog" aria-modal="true" aria-label="Immagine ingrandita">
+        <img id="overlay-img" class="overlay-img" alt="">
+        <p id="overlay-didascalia" class="overlay-didascalia"></p>
+    </div>
+</body>
+</html>

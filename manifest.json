@@ -1,0 +1,1340 @@
+{
+ "nome": "Gamblemon",
+ "versione": "2.15.2",
+ "minecraft": "1.21.1",
+ "fabric": "0.19.5",
+ "edizioni": {
+  "classic": {
+   "nome": "Gamblemon Classic",
+   "mods": [
+    {
+     "file": "accessories-fabric-1.1.0-beta.53+1.21.1.jar",
+     "cartella": "mods",
+     "url": "https://cdn.modrinth.com/data/jtmvUHXj/versions/Xlt4eWBe/accessories-fabric-1.1.0-beta.53%2B1.21.1.jar",
+     "sha1": "fa0b11de088893bb14aff945d0e8efdee165457b",
+     "byte": 1095802
+    },
+    {
+     "file": "mcw-mcwstairs-1.0.2-mc1.21.1fabric.jar",
+     "cartella": "mods",
+     "url": "https://cdn.modrinth.com/data/iP3wH1ha/versions/VXYxDkZ8/mcw-mcwstairs-1.0.2-mc1.21.1fabric.jar",
+     "sha1": "1b549de4a2a4059e56ed8868b556e3746adc73fb",
+     "byte": 521922
+    },
+    {
+     "file": "mcw-furniture-3.4.1-mc1.21.1fabric.jar",
+     "cartella": "mods",
+     "url": "https://cdn.modrinth.com/data/dtWC90iB/versions/x2pXgG0s/mcw-furniture-3.4.1-mc1.21.1fabric.jar",
+     "sha1": "4c914a4d3bb84103b34346e60c6aa981be8dfa23",
+     "byte": 2087232
+    },
+    {
+     "file": "fabric-api-0.116.17+1.21.1.jar",
+     "cartella": "mods",
+     "url": "https://cdn.modrinth.com/data/P7dR8mSH/versions/Mys3P7lK/fabric-api-0.116.17%2B1.21.1.jar",
+     "sha1": "810b2b0195371a012906241d8b85a32a1d6de53c",
+     "byte": 2452735
+    },
+    {
+     "file": "voicechat-fabric-1.21.1-2.6.22.jar",
+     "cartella": "mods",
+     "url": "https://cdn.modrinth.com/data/9eGKb6K1/versions/VS5X7jZd/voicechat-fabric-1.21.1-2.6.22.jar",
+     "sha1": "2b3f229ed746955b756807a92e09e9a32d636776",
+     "byte": 5369475
+    },
+    {
+     "file": "legendarymonuments-fabric-1.21.1-8.1-Love_for_All.jar",
+     "cartella": "mods",
+     "url": "https://cdn.modrinth.com/data/m6RyHSbV/versions/F6Ub0Gga/legendarymonuments-fabric-1.21.1-8.1-Love_for_All.jar",
+     "sha1": "b97c7bf8c9c445658e9fdc74045871ce55dbec61",
+     "byte": 16611506
+    },
+    {
+     "file": "lithostitched-1.8.0+beta6-fabric-21.1.jar",
+     "cartella": "mods",
+     "url": "https://cdn.modrinth.com/data/XaDC71GB/versions/LC0qLyud/lithostitched-1.8.0%2Bbeta6-fabric-21.1.jar",
+     "sha1": "bfee403bcc202930c4f74dbbfdba417376927372",
+     "byte": 970257
+    },
+    {
+     "file": "fabric-language-kotlin-1.14.1+kotlin.2.4.20.jar",
+     "cartella": "mods",
+     "url": "https://cdn.modrinth.com/data/Ha28R6CL/versions/eRRZzGMc/fabric-language-kotlin-1.14.1%2Bkotlin.2.4.20.jar",
+     "sha1": "62ae40a31b689b52fde399f2143d547a631e942c",
+     "byte": 8142858
+    },
+    {
+     "file": "athena-fabric-1.21.1-4.0.6.jar",
+     "cartella": "mods",
+     "url": "https://cdn.modrinth.com/data/b1ZV3DIJ/versions/JfyYsWKP/athena-fabric-1.21.1-4.0.6.jar",
+     "sha1": "92534d85cad33ab1fee598068443c685f4bb06e0",
+     "byte": 88425
+    },
+    {
+     "file": "audioplayer-fabric-1.21.1-1.13.2.jar",
+     "cartella": "mods",
+     "url": "https://cdn.modrinth.com/data/SRlzjEBS/versions/7SlDRxwD/audioplayer-fabric-1.21.1-1.13.2.jar",
+     "sha1": "28778446f57145ed30721c2bb03af8a6aa6e1664",
+     "byte": 791232
+    },
+    {
+     "file": "xaerominimap-fabric-1.21.1-26.5.0.jar",
+     "cartella": "mods",
+     "url": "https://cdn.modrinth.com/data/1bokaNcj/versions/ZD6hK4GV/xaerominimap-fabric-1.21.1-26.5.0.jar",
+     "sha1": "b9cec1acb286b6d7c05759c0c1e4b8a04f28d785",
+     "byte": 2233763
+    },
+    {
+     "file": "E19 Cobblemon Minimap Icons.zip",
+     "cartella": "resourcepacks",
+     "url": "https://cdn.modrinth.com/data/Va3BanZa/versions/YGgixlha/E19%20Cobblemon%20Minimap%20Icons.zip",
+     "sha1": "1aefc7a313b3c6f719d2fa53916afff18cd0792f",
+     "byte": 19398814
+    },
+    {
+     "file": "mega_showdown-fabric-1.9.9+1.7.3+1.21.1.jar",
+     "cartella": "mods",
+     "url": "https://cdn.modrinth.com/data/SszvX85I/versions/13b1fBn2/mega_showdown-fabric-1.9.9%2B1.7.3%2B1.21.1.jar",
+     "sha1": "24fea20eea912ae6a0f8006901c782a94e1ea82f",
+     "byte": 20450537
+    },
+    {
+     "file": "architectury-13.0.11-fabric.jar",
+     "cartella": "mods",
+     "url": "https://cdn.modrinth.com/data/lhGA9TYQ/versions/Pzc2FP5K/architectury-13.0.11-fabric.jar",
+     "sha1": "18200609d4c3571c4237b50884966f6fd82431ea",
+     "byte": 600921
+    },
+    {
+     "file": "mcw-bridges-3.1.2-mc1.21.1fabric.jar",
+     "cartella": "mods",
+     "url": "https://cdn.modrinth.com/data/GURcjz8O/versions/pl1CA7dW/mcw-bridges-3.1.2-mc1.21.1fabric.jar",
+     "sha1": "c496bc2bc330e23c5100fd0a2421d12d4da7cd11",
+     "byte": 666524
+    },
+    {
+     "file": "ferritecore-7.0.3-fabric.jar",
+     "cartella": "mods",
+     "url": "https://cdn.modrinth.com/data/uXXizFIs/versions/sOzRw3CG/ferritecore-7.0.3-fabric.jar",
+     "sha1": "a8a6a34fcda177da2828cedef44e0e538cf78aad",
+     "byte": 123450
+    },
+    {
+     "file": "Only Bottle Caps-1.4.0.jar",
+     "cartella": "mods",
+     "url": "https://cdn.modrinth.com/data/tDRRddpZ/versions/xkaDeFly/Only%20Bottle%20Caps-1.4.0.jar",
+     "sha1": "b4bcc62a37568608cd69556a80d8ab448244ec22",
+     "byte": 250921
+    },
+    {
+     "file": "MakeUp-UltraFast-9.5e.zip",
+     "cartella": "shaderpacks",
+     "url": "https://cdn.modrinth.com/data/izsIPI7a/versions/T3EhqZo1/MakeUp-UltraFast-9.5e.zip",
+     "sha1": "84f7f6ddf81f602ff241fb9c576411cdda309f9e",
+     "byte": 400417
+    },
+    {
+     "file": "mcw-paintings-1.1.0-mc1.21.1fabric.jar",
+     "cartella": "mods",
+     "url": "https://cdn.modrinth.com/data/okE6QVAY/versions/1TcCdrZ2/mcw-paintings-1.1.0-mc1.21.1fabric.jar",
+     "sha1": "c987bbb2aa9b01da8604f955a26f9d06876d25c3",
+     "byte": 179348
+    },
+    {
+     "file": "kantonpcs-1.0.5.jar",
+     "cartella": "mods",
+     "url": "https://cdn.modrinth.com/data/ifw9j2BM/versions/uo9mtS5O/kantonpcs-1.0.5.jar",
+     "sha1": "200a1bb7cc681e18e651f1f34b37c3a51cce8992",
+     "byte": 1808869
+    },
+    {
+     "file": "sodium-fabric-0.8.12+mc1.21.1.jar",
+     "cartella": "mods",
+     "url": "https://cdn.modrinth.com/data/AANobbMI/versions/KIRFiWG4/sodium-fabric-0.8.12%2Bmc1.21.1.jar",
+     "sha1": "70381d969eb63c0aa09dc581ef4b9a79782c0123",
+     "byte": 1573180
+    },
+    {
+     "file": "owo-lib-0.12.15.4+1.21.jar",
+     "cartella": "mods",
+     "url": "https://cdn.modrinth.com/data/ccKDOlHs/versions/JB1fLQnc/owo-lib-0.12.15.4%2B1.21.jar",
+     "sha1": "45725e6d33b624e565a7a6e5d3627af40814288d",
+     "byte": 1183559
+    },
+    {
+     "file": "mcw-mcwfences-1.2.1-mc1.21.1fabric.jar",
+     "cartella": "mods",
+     "url": "https://cdn.modrinth.com/data/GmwLse2I/versions/ZGMGDbjg/mcw-mcwfences-1.2.1-mc1.21.1fabric.jar",
+     "sha1": "f9be270761e17ad131f186b2537c2ce2f305815a",
+     "byte": 651571
+    },
+    {
+     "file": "mcw-paths-1.1.2-mc1.21.1fabric.jar",
+     "cartella": "mods",
+     "url": "https://cdn.modrinth.com/data/VRLhWB91/versions/eINOtRRK/mcw-paths-1.1.2-mc1.21.1fabric.jar",
+     "sha1": "c639899d476dd55a37c1049658898db32157af1c",
+     "byte": 767800
+    },
+    {
+     "file": "immersive_furniture-fabric-0.3.3+1.21.1.jar",
+     "cartella": "mods",
+     "url": "https://cdn.modrinth.com/data/SvN6UGeF/versions/kCFeaaoC/immersive_furniture-fabric-0.3.3%2B1.21.1.jar",
+     "sha1": "64bd7d41204bb84feb34e12b99192c784fe987c9",
+     "byte": 1025500
+    },
+    {
+     "file": "mcw-roofs-2.3.2-mc1.21.1fabric.jar",
+     "cartella": "mods",
+     "url": "https://cdn.modrinth.com/data/B8jaH3P1/versions/BgPUaaiV/mcw-roofs-2.3.2-mc1.21.1fabric.jar",
+     "sha1": "2367e5972a8ab30cc4f764e6ec98841e3eaa341a",
+     "byte": 1790000
+    },
+    {
+     "file": "packetfixer-3.3.1-1.20.5-1.21.X-merged.jar",
+     "cartella": "mods",
+     "url": "https://cdn.modrinth.com/data/c7m1mi73/versions/2C41Q8WX/packetfixer-3.3.1-1.20.5-1.21.X-merged.jar",
+     "sha1": "a8bb6e25807682e72c23bf4065f3cd5f6373ece3",
+     "byte": 46623
+    },
+    {
+     "file": "chipped-fabric-1.21.1-4.0.2.jar",
+     "cartella": "mods",
+     "url": "https://cdn.modrinth.com/data/BAscRYKm/versions/6h2mVZcb/chipped-fabric-1.21.1-4.0.2.jar",
+     "sha1": "add18f65d7b131e05313cd98069cb71adac3483c",
+     "byte": 15016830
+    },
+    {
+     "file": "mcw-holidays-1.1.2-mc1.21.1fabric.jar",
+     "cartella": "mods",
+     "url": "https://cdn.modrinth.com/data/rH20L2Lp/versions/lUJ6xjps/mcw-holidays-1.1.2-mc1.21.1fabric.jar",
+     "sha1": "59a0d8de46d73ad29c907715d0e2c4973f7c369b",
+     "byte": 999600
+    },
+    {
+     "file": "cobblestats-fabric-1.9.2+1.21.1.jar",
+     "cartella": "mods",
+     "url": "https://cdn.modrinth.com/data/jlXFcQk4/versions/uxsx4bK4/cobblestats-fabric-1.9.2%2B1.21.1.jar",
+     "sha1": "f5906ebd0b55a43b34429995c74f9a6cbe2ecce1",
+     "byte": 68007
+    },
+    {
+     "file": "iris-fabric-1.8.14-beta.1+mc1.21.1.jar",
+     "cartella": "mods",
+     "url": "https://cdn.modrinth.com/data/YL57xq9U/versions/bAo1Qhte/iris-fabric-1.8.14-beta.1%2Bmc1.21.1.jar",
+     "sha1": "6776c0340845887477bfa463acc736ce7fcb6de5",
+     "byte": 2791343
+    },
+    {
+     "file": "mcw-trapdoors-1.1.5-mc1.21.1fabric.jar",
+     "cartella": "mods",
+     "url": "https://cdn.modrinth.com/data/n2fvCDlM/versions/Nr24HhRK/mcw-trapdoors-1.1.5-mc1.21.1fabric.jar",
+     "sha1": "ecf7e153e9ae9fa4707ad6f200177ae87d0bbfff",
+     "byte": 568267
+    },
+    {
+     "file": "worldedit-mod-7.3.8.jar",
+     "cartella": "mods",
+     "url": "https://cdn.modrinth.com/data/1u6JkXh5/versions/WTAFvuRx/worldedit-mod-7.3.8.jar",
+     "sha1": "924fe181a29bd66be6783f6d589968ab0ee02250",
+     "byte": 6222854
+    },
+    {
+     "file": "resourcefullib-fabric-1.21-3.0.12.jar",
+     "cartella": "mods",
+     "url": "https://cdn.modrinth.com/data/G1hIVOrD/versions/Hf91FuVF/resourcefullib-fabric-1.21-3.0.12.jar",
+     "sha1": "cb67e1302b5116953f45556cc61dbcf40d986ecd",
+     "byte": 485586
+    },
+    {
+     "file": "Cobblemon-fabric-1.7.3+1.21.1.jar",
+     "cartella": "mods",
+     "url": "https://cdn.modrinth.com/data/MdwFAVRL/versions/kF7CvxTo/Cobblemon-fabric-1.7.3%2B1.21.1.jar",
+     "sha1": "f192cda3fdfec0f20d1dee1887ec1b9e77b1618c",
+     "byte": 135801550
+    },
+    {
+     "file": "xaeroworldmap-fabric-1.21.1-1.46.0.jar",
+     "cartella": "mods",
+     "url": "https://cdn.modrinth.com/data/NcUtCpym/versions/txl9KURC/xaeroworldmap-fabric-1.21.1-1.46.0.jar",
+     "sha1": "532942aff4536c46cd66d0b8fea2964740562319",
+     "byte": 1451734
+    },
+    {
+     "file": "sound-physics-remastered-fabric-1.21.1-1.5.1.jar",
+     "cartella": "mods",
+     "url": "https://cdn.modrinth.com/data/qyVF9oeo/versions/tVu2EZ4u/sound-physics-remastered-fabric-1.21.1-1.5.1.jar",
+     "sha1": "07d9f758338ad5be38b7fa1eb32c71a7c4840ea0",
+     "byte": 205671
+    },
+    {
+     "file": "mcw-lights-1.1.5-mc1.21.1fabric.jar",
+     "cartella": "mods",
+     "url": "https://cdn.modrinth.com/data/w4an97C2/versions/2tPrjftM/mcw-lights-1.1.5-mc1.21.1fabric.jar",
+     "sha1": "0dacc96b850d57f9d51c232b3c123698f4bc73b3",
+     "byte": 514085
+    },
+    {
+     "file": "openui-mc-fabric-1.21.1-0.0.10.jar",
+     "cartella": "mods",
+     "url": "https://thiaass.github.io/gamblemon/file/openui-mc-fabric-1.21.1-0.0.10.jar",
+     "sha1": "3c03c758591a327d6153f95f13da9ca34313bd93",
+     "byte": 1293185
+    },
+    {
+     "file": "cobbledgacha-fabric-1.21.1-3.0.3.jar",
+     "cartella": "mods",
+     "url": "https://cdn.modrinth.com/data/c1OpnQs3/versions/kqpoF9m4/cobbledgacha-fabric-1.21.1-3.0.3.jar",
+     "sha1": "333a38b02471dddc0a3efc03dc70a82a23a6d2d7",
+     "byte": 1148291
+    },
+    {
+     "file": "mcw-mcwwindows-2.4.2-mc1.21.1fabric.jar",
+     "cartella": "mods",
+     "url": "https://cdn.modrinth.com/data/C7I0BCni/versions/4mvfMpVO/mcw-mcwwindows-2.4.2-mc1.21.1fabric.jar",
+     "sha1": "0d47db265d99f75f29c93b37489b5602f37ec4af",
+     "byte": 1278810
+    },
+    {
+     "file": "geckolib-fabric-1.21.1-4.8.4.jar",
+     "cartella": "mods",
+     "url": "https://cdn.modrinth.com/data/8BmcQJ2H/versions/3GjkJptS/geckolib-fabric-1.21.1-4.8.4.jar",
+     "sha1": "4285fbb6222b5b49869aea8a3a2f67c086b1c8bc",
+     "byte": 653722
+    },
+    {
+     "file": "pokeblocks-1.5.0-1.21.1.jar",
+     "cartella": "mods",
+     "url": "https://cdn.modrinth.com/data/hnOfcjSq/versions/qlp66lU8/pokeblocks-1.5.0-1.21.1.jar",
+     "sha1": "a767426171b3085775b57bfd53b66fe7fa6edd88",
+     "byte": 1775159
+    },
+    {
+     "file": "MythsAndLegends-fabric-1.9.0.jar",
+     "cartella": "mods",
+     "url": "https://cdn.modrinth.com/data/CaOWby9K/versions/eg83qtSQ/MythsAndLegends-fabric-1.9.0.jar",
+     "sha1": "9acdd403a8c1a5544d7f779f301c5f3630d0a211",
+     "byte": 3249725
+    },
+    {
+     "file": "mcw-doors-1.1.5-mc1.21.1fabric.jar",
+     "cartella": "mods",
+     "url": "https://cdn.modrinth.com/data/kNxa8z3e/versions/Zsfvgzu6/mcw-doors-1.1.5-mc1.21.1fabric.jar",
+     "sha1": "7b31f8db94fff60eee188a5118438def65adba40",
+     "byte": 1219302
+    },
+    {
+     "file": "open-parties-and-claims-fabric-1.21.1-0.31.6.jar",
+     "cartella": "mods",
+     "url": "https://cdn.modrinth.com/data/gF3BGWvG/versions/IGnNGC9H/open-parties-and-claims-fabric-1.21.1-0.31.6.jar",
+     "sha1": "f76c545d061b482ada7815313a9f37616f6d2451",
+     "byte": 1911527
+    },
+    {
+     "file": "ForgeConfigAPIPort-v21.1.6-1.21.1-Fabric.jar",
+     "cartella": "mods",
+     "url": "https://cdn.modrinth.com/data/ohNO6lps/versions/N5qzq0XV/ForgeConfigAPIPort-v21.1.6-1.21.1-Fabric.jar",
+     "sha1": "18bf1f21cd2db6dcd4e42db85eae54e2a49a48ee",
+     "byte": 633065
+    },
+    {
+     "file": "SimpleTMs-fabric-2.3.3.jar",
+     "cartella": "mods",
+     "url": "https://cdn.modrinth.com/data/yFqR0DNc/versions/uWiIETYV/SimpleTMs-fabric-2.3.3.jar",
+     "sha1": "3433763bf6e20639213fd31a45da187968e61ffe",
+     "byte": 821382
+    },
+    {
+     "file": "cobblemon-hug-fabric-1.0.0.jar",
+     "cartella": "mods",
+     "url": "https://cdn.modrinth.com/data/eCHOrMh7/versions/z9BVSGc1/cobblemon-hug-fabric-1.0.0.jar",
+     "sha1": "42942b0e52481dd504ca2dfab487bf5ac20ed536",
+     "byte": 241700
+    },
+    {
+     "file": "PlayerAnimationLibFabric-1.1.6+mc.1.21.1.jar",
+     "cartella": "mods",
+     "url": "https://cdn.modrinth.com/data/ha1mEyJS/versions/tDcfU8FO/PlayerAnimationLibFabric-1.1.6%2Bmc.1.21.1.jar",
+     "sha1": "f33384448a9d3271b77ba61d658dc90f40949578",
+     "byte": 1154772
+    },
+    {
+     "file": "lithium-fabric-0.15.4+mc1.21.1.jar",
+     "cartella": "mods",
+     "url": "https://cdn.modrinth.com/data/gvQqBUqZ/versions/N08Z8wog/lithium-fabric-0.15.4%2Bmc1.21.1.jar",
+     "sha1": "7d82a004403b7780d4443d8e40361a55cfd0ae63",
+     "byte": 797454
+    },
+    {
+     "file": "modernfix-fabric-5.25.1+mc1.21.1.jar",
+     "cartella": "mods",
+     "url": "https://cdn.modrinth.com/data/nmDcB62a/versions/NnNX8LBn/modernfix-fabric-5.25.1%2Bmc1.21.1.jar",
+     "sha1": "4ab39e9c736e7204146792c545ec5b29fc0a3872",
+     "byte": 471258
+    },
+    {
+     "file": "ImmediatelyFast-Fabric-1.6.14+1.21.1.jar",
+     "cartella": "mods",
+     "url": "https://cdn.modrinth.com/data/5ZwdcRci/versions/7XKnsIC8/ImmediatelyFast-Fabric-1.6.14%2B1.21.1.jar",
+     "sha1": "023805be7d701b9769e987449d217c557de5f848",
+     "byte": 340166
+    },
+    {
+     "file": "entityculling-fabric-1.11.2-mc1.21.1.jar",
+     "cartella": "mods",
+     "url": "https://cdn.modrinth.com/data/NNAgCjsB/versions/AaC52CuD/entityculling-fabric-1.11.2-mc1.21.1.jar",
+     "sha1": "c400f3fb5f8668f99cdb52b5d4f92d11b4e3edf1",
+     "byte": 1519213
+    },
+    {
+     "file": "cwb-fabric-3.0.0+mc1.21.jar",
+     "cartella": "mods",
+     "url": "https://cdn.modrinth.com/data/ETlrkaYF/versions/m350hyy8/cwb-fabric-3.0.0%2Bmc1.21.jar",
+     "sha1": "0979201d1d131a3bf0594060c58da7dcb55aded6",
+     "byte": 81288
+    },
+    {
+     "file": "extra-move-anims-cobblemon-1.7v1.0.2.jar",
+     "cartella": "mods",
+     "url": "https://cdn.modrinth.com/data/jYnliKOv/versions/XQZtyZyc/extra-move-anims-cobblemon-1.7v1.0.2.jar",
+     "sha1": "88f5f5290a98311bed5e9ce68553f4447d18af9f",
+     "byte": 584731
+    },
+    {
+     "file": "gamblemon-2.15.2.jar",
+     "cartella": "mods",
+     "url": "https://thiaass.github.io/gamblemon/file/gamblemon-2.15.2.jar",
+     "sha1": "8c2322a0ecce8832addf2a7d20b92a7aaef38da4",
+     "byte": 11888729
+    },
+    {
+     "file": "CobblemonMoreCosmetics Release v1.1.7-1.21.x.zip",
+     "cartella": "resourcepacks",
+     "url": "https://cdn.modrinth.com/data/M4vjzYDD/versions/jN3II9NG/CobblemonMoreCosmetics%20Release%20v1.1.7-1.21.x.zip",
+     "sha1": "82745faed6e9c77c562ec2ac09e7ac9a12ec8960",
+     "byte": 2731677
+    },
+    {
+     "file": "winterglides-extra-animations-1.1.zip",
+     "cartella": "resourcepacks",
+     "url": "https://cdn.modrinth.com/data/F4TxEYXe/versions/UbNNUg3g/Winterglide%27s%20Extra%20Animations%20%5BCobblemon%5D.zip",
+     "sha1": "726d2cc33387263e854b217c4f01498ddd5f862f",
+     "byte": 71707
+    },
+    {
+     "file": "ItemPhysicLite_FABRIC_v1.6.13_mc1.21.1.jar",
+     "cartella": "mods",
+     "url": "https://cdn.modrinth.com/data/OuyCgP8t/versions/S1Hiel0e/ItemPhysicLite_FABRIC_v1.6.13_mc1.21.1.jar",
+     "sha1": "6ee78eb984812a662addb4c954400017a77828b0",
+     "byte": 23765
+    },
+    {
+     "file": "CreativeCore_FABRIC_v2.13.48_mc1.21.1.jar",
+     "cartella": "mods",
+     "url": "https://cdn.modrinth.com/data/OsZiaDHq/versions/v7fZmKvM/CreativeCore_FABRIC_v2.13.48_mc1.21.1.jar",
+     "sha1": "d134ccaf1030973e47f1b2eac7c834e438ae0ab6",
+     "byte": 1257391
+    }
+   ],
+   "extra": {
+    "url": "https://thiaass.github.io/gamblemon/extra-classic.zip",
+    "sha1": "aa23e053677d1ee5166c9e60cf1ac6642572e0ee",
+    "byte": 486708
+   }
+  },
+  "light": {
+   "nome": "Gamblemon Light",
+   "mods": [
+    {
+     "file": "accessories-fabric-1.1.0-beta.53+1.21.1.jar",
+     "cartella": "mods",
+     "url": "https://cdn.modrinth.com/data/jtmvUHXj/versions/Xlt4eWBe/accessories-fabric-1.1.0-beta.53%2B1.21.1.jar",
+     "sha1": "fa0b11de088893bb14aff945d0e8efdee165457b",
+     "byte": 1095802
+    },
+    {
+     "file": "mcw-mcwstairs-1.0.2-mc1.21.1fabric.jar",
+     "cartella": "mods",
+     "url": "https://cdn.modrinth.com/data/iP3wH1ha/versions/VXYxDkZ8/mcw-mcwstairs-1.0.2-mc1.21.1fabric.jar",
+     "sha1": "1b549de4a2a4059e56ed8868b556e3746adc73fb",
+     "byte": 521922
+    },
+    {
+     "file": "mcw-furniture-3.4.1-mc1.21.1fabric.jar",
+     "cartella": "mods",
+     "url": "https://cdn.modrinth.com/data/dtWC90iB/versions/x2pXgG0s/mcw-furniture-3.4.1-mc1.21.1fabric.jar",
+     "sha1": "4c914a4d3bb84103b34346e60c6aa981be8dfa23",
+     "byte": 2087232
+    },
+    {
+     "file": "fabric-api-0.116.17+1.21.1.jar",
+     "cartella": "mods",
+     "url": "https://cdn.modrinth.com/data/P7dR8mSH/versions/Mys3P7lK/fabric-api-0.116.17%2B1.21.1.jar",
+     "sha1": "810b2b0195371a012906241d8b85a32a1d6de53c",
+     "byte": 2452735
+    },
+    {
+     "file": "voicechat-fabric-1.21.1-2.6.22.jar",
+     "cartella": "mods",
+     "url": "https://cdn.modrinth.com/data/9eGKb6K1/versions/VS5X7jZd/voicechat-fabric-1.21.1-2.6.22.jar",
+     "sha1": "2b3f229ed746955b756807a92e09e9a32d636776",
+     "byte": 5369475
+    },
+    {
+     "file": "legendarymonuments-fabric-1.21.1-8.1-Love_for_All.jar",
+     "cartella": "mods",
+     "url": "https://cdn.modrinth.com/data/m6RyHSbV/versions/F6Ub0Gga/legendarymonuments-fabric-1.21.1-8.1-Love_for_All.jar",
+     "sha1": "b97c7bf8c9c445658e9fdc74045871ce55dbec61",
+     "byte": 16611506
+    },
+    {
+     "file": "lithostitched-1.8.0+beta6-fabric-21.1.jar",
+     "cartella": "mods",
+     "url": "https://cdn.modrinth.com/data/XaDC71GB/versions/LC0qLyud/lithostitched-1.8.0%2Bbeta6-fabric-21.1.jar",
+     "sha1": "bfee403bcc202930c4f74dbbfdba417376927372",
+     "byte": 970257
+    },
+    {
+     "file": "fabric-language-kotlin-1.14.1+kotlin.2.4.20.jar",
+     "cartella": "mods",
+     "url": "https://cdn.modrinth.com/data/Ha28R6CL/versions/eRRZzGMc/fabric-language-kotlin-1.14.1%2Bkotlin.2.4.20.jar",
+     "sha1": "62ae40a31b689b52fde399f2143d547a631e942c",
+     "byte": 8142858
+    },
+    {
+     "file": "athena-fabric-1.21.1-4.0.6.jar",
+     "cartella": "mods",
+     "url": "https://cdn.modrinth.com/data/b1ZV3DIJ/versions/JfyYsWKP/athena-fabric-1.21.1-4.0.6.jar",
+     "sha1": "92534d85cad33ab1fee598068443c685f4bb06e0",
+     "byte": 88425
+    },
+    {
+     "file": "audioplayer-fabric-1.21.1-1.13.2.jar",
+     "cartella": "mods",
+     "url": "https://cdn.modrinth.com/data/SRlzjEBS/versions/7SlDRxwD/audioplayer-fabric-1.21.1-1.13.2.jar",
+     "sha1": "28778446f57145ed30721c2bb03af8a6aa6e1664",
+     "byte": 791232
+    },
+    {
+     "file": "xaerominimap-fabric-1.21.1-26.5.0.jar",
+     "cartella": "mods",
+     "url": "https://cdn.modrinth.com/data/1bokaNcj/versions/ZD6hK4GV/xaerominimap-fabric-1.21.1-26.5.0.jar",
+     "sha1": "b9cec1acb286b6d7c05759c0c1e4b8a04f28d785",
+     "byte": 2233763
+    },
+    {
+     "file": "E19 Cobblemon Minimap Icons.zip",
+     "cartella": "resourcepacks",
+     "url": "https://cdn.modrinth.com/data/Va3BanZa/versions/YGgixlha/E19%20Cobblemon%20Minimap%20Icons.zip",
+     "sha1": "1aefc7a313b3c6f719d2fa53916afff18cd0792f",
+     "byte": 19398814
+    },
+    {
+     "file": "mega_showdown-fabric-1.9.9+1.7.3+1.21.1.jar",
+     "cartella": "mods",
+     "url": "https://cdn.modrinth.com/data/SszvX85I/versions/13b1fBn2/mega_showdown-fabric-1.9.9%2B1.7.3%2B1.21.1.jar",
+     "sha1": "24fea20eea912ae6a0f8006901c782a94e1ea82f",
+     "byte": 20450537
+    },
+    {
+     "file": "architectury-13.0.11-fabric.jar",
+     "cartella": "mods",
+     "url": "https://cdn.modrinth.com/data/lhGA9TYQ/versions/Pzc2FP5K/architectury-13.0.11-fabric.jar",
+     "sha1": "18200609d4c3571c4237b50884966f6fd82431ea",
+     "byte": 600921
+    },
+    {
+     "file": "mcw-bridges-3.1.2-mc1.21.1fabric.jar",
+     "cartella": "mods",
+     "url": "https://cdn.modrinth.com/data/GURcjz8O/versions/pl1CA7dW/mcw-bridges-3.1.2-mc1.21.1fabric.jar",
+     "sha1": "c496bc2bc330e23c5100fd0a2421d12d4da7cd11",
+     "byte": 666524
+    },
+    {
+     "file": "ferritecore-7.0.3-fabric.jar",
+     "cartella": "mods",
+     "url": "https://cdn.modrinth.com/data/uXXizFIs/versions/sOzRw3CG/ferritecore-7.0.3-fabric.jar",
+     "sha1": "a8a6a34fcda177da2828cedef44e0e538cf78aad",
+     "byte": 123450
+    },
+    {
+     "file": "Only Bottle Caps-1.4.0.jar",
+     "cartella": "mods",
+     "url": "https://cdn.modrinth.com/data/tDRRddpZ/versions/xkaDeFly/Only%20Bottle%20Caps-1.4.0.jar",
+     "sha1": "b4bcc62a37568608cd69556a80d8ab448244ec22",
+     "byte": 250921
+    },
+    {
+     "file": "MakeUp-UltraFast-9.5e.zip",
+     "cartella": "shaderpacks",
+     "url": "https://cdn.modrinth.com/data/izsIPI7a/versions/T3EhqZo1/MakeUp-UltraFast-9.5e.zip",
+     "sha1": "84f7f6ddf81f602ff241fb9c576411cdda309f9e",
+     "byte": 400417
+    },
+    {
+     "file": "mcw-paintings-1.1.0-mc1.21.1fabric.jar",
+     "cartella": "mods",
+     "url": "https://cdn.modrinth.com/data/okE6QVAY/versions/1TcCdrZ2/mcw-paintings-1.1.0-mc1.21.1fabric.jar",
+     "sha1": "c987bbb2aa9b01da8604f955a26f9d06876d25c3",
+     "byte": 179348
+    },
+    {
+     "file": "kantonpcs-1.0.5.jar",
+     "cartella": "mods",
+     "url": "https://cdn.modrinth.com/data/ifw9j2BM/versions/uo9mtS5O/kantonpcs-1.0.5.jar",
+     "sha1": "200a1bb7cc681e18e651f1f34b37c3a51cce8992",
+     "byte": 1808869
+    },
+    {
+     "file": "sodium-fabric-0.8.12+mc1.21.1.jar",
+     "cartella": "mods",
+     "url": "https://cdn.modrinth.com/data/AANobbMI/versions/KIRFiWG4/sodium-fabric-0.8.12%2Bmc1.21.1.jar",
+     "sha1": "70381d969eb63c0aa09dc581ef4b9a79782c0123",
+     "byte": 1573180
+    },
+    {
+     "file": "owo-lib-0.12.15.4+1.21.jar",
+     "cartella": "mods",
+     "url": "https://cdn.modrinth.com/data/ccKDOlHs/versions/JB1fLQnc/owo-lib-0.12.15.4%2B1.21.jar",
+     "sha1": "45725e6d33b624e565a7a6e5d3627af40814288d",
+     "byte": 1183559
+    },
+    {
+     "file": "mcw-mcwfences-1.2.1-mc1.21.1fabric.jar",
+     "cartella": "mods",
+     "url": "https://cdn.modrinth.com/data/GmwLse2I/versions/ZGMGDbjg/mcw-mcwfences-1.2.1-mc1.21.1fabric.jar",
+     "sha1": "f9be270761e17ad131f186b2537c2ce2f305815a",
+     "byte": 651571
+    },
+    {
+     "file": "mcw-paths-1.1.2-mc1.21.1fabric.jar",
+     "cartella": "mods",
+     "url": "https://cdn.modrinth.com/data/VRLhWB91/versions/eINOtRRK/mcw-paths-1.1.2-mc1.21.1fabric.jar",
+     "sha1": "c639899d476dd55a37c1049658898db32157af1c",
+     "byte": 767800
+    },
+    {
+     "file": "immersive_furniture-fabric-0.3.3+1.21.1.jar",
+     "cartella": "mods",
+     "url": "https://cdn.modrinth.com/data/SvN6UGeF/versions/kCFeaaoC/immersive_furniture-fabric-0.3.3%2B1.21.1.jar",
+     "sha1": "64bd7d41204bb84feb34e12b99192c784fe987c9",
+     "byte": 1025500
+    },
+    {
+     "file": "mcw-roofs-2.3.2-mc1.21.1fabric.jar",
+     "cartella": "mods",
+     "url": "https://cdn.modrinth.com/data/B8jaH3P1/versions/BgPUaaiV/mcw-roofs-2.3.2-mc1.21.1fabric.jar",
+     "sha1": "2367e5972a8ab30cc4f764e6ec98841e3eaa341a",
+     "byte": 1790000
+    },
+    {
+     "file": "packetfixer-3.3.1-1.20.5-1.21.X-merged.jar",
+     "cartella": "mods",
+     "url": "https://cdn.modrinth.com/data/c7m1mi73/versions/2C41Q8WX/packetfixer-3.3.1-1.20.5-1.21.X-merged.jar",
+     "sha1": "a8bb6e25807682e72c23bf4065f3cd5f6373ece3",
+     "byte": 46623
+    },
+    {
+     "file": "chipped-fabric-1.21.1-4.0.2.jar",
+     "cartella": "mods",
+     "url": "https://cdn.modrinth.com/data/BAscRYKm/versions/6h2mVZcb/chipped-fabric-1.21.1-4.0.2.jar",
+     "sha1": "add18f65d7b131e05313cd98069cb71adac3483c",
+     "byte": 15016830
+    },
+    {
+     "file": "mcw-holidays-1.1.2-mc1.21.1fabric.jar",
+     "cartella": "mods",
+     "url": "https://cdn.modrinth.com/data/rH20L2Lp/versions/lUJ6xjps/mcw-holidays-1.1.2-mc1.21.1fabric.jar",
+     "sha1": "59a0d8de46d73ad29c907715d0e2c4973f7c369b",
+     "byte": 999600
+    },
+    {
+     "file": "cobblestats-fabric-1.9.2+1.21.1.jar",
+     "cartella": "mods",
+     "url": "https://cdn.modrinth.com/data/jlXFcQk4/versions/uxsx4bK4/cobblestats-fabric-1.9.2%2B1.21.1.jar",
+     "sha1": "f5906ebd0b55a43b34429995c74f9a6cbe2ecce1",
+     "byte": 68007
+    },
+    {
+     "file": "iris-fabric-1.8.14-beta.1+mc1.21.1.jar",
+     "cartella": "mods",
+     "url": "https://cdn.modrinth.com/data/YL57xq9U/versions/bAo1Qhte/iris-fabric-1.8.14-beta.1%2Bmc1.21.1.jar",
+     "sha1": "6776c0340845887477bfa463acc736ce7fcb6de5",
+     "byte": 2791343
+    },
+    {
+     "file": "mcw-trapdoors-1.1.5-mc1.21.1fabric.jar",
+     "cartella": "mods",
+     "url": "https://cdn.modrinth.com/data/n2fvCDlM/versions/Nr24HhRK/mcw-trapdoors-1.1.5-mc1.21.1fabric.jar",
+     "sha1": "ecf7e153e9ae9fa4707ad6f200177ae87d0bbfff",
+     "byte": 568267
+    },
+    {
+     "file": "worldedit-mod-7.3.8.jar",
+     "cartella": "mods",
+     "url": "https://cdn.modrinth.com/data/1u6JkXh5/versions/WTAFvuRx/worldedit-mod-7.3.8.jar",
+     "sha1": "924fe181a29bd66be6783f6d589968ab0ee02250",
+     "byte": 6222854
+    },
+    {
+     "file": "resourcefullib-fabric-1.21-3.0.12.jar",
+     "cartella": "mods",
+     "url": "https://cdn.modrinth.com/data/G1hIVOrD/versions/Hf91FuVF/resourcefullib-fabric-1.21-3.0.12.jar",
+     "sha1": "cb67e1302b5116953f45556cc61dbcf40d986ecd",
+     "byte": 485586
+    },
+    {
+     "file": "Cobblemon-fabric-1.7.3+1.21.1.jar",
+     "cartella": "mods",
+     "url": "https://cdn.modrinth.com/data/MdwFAVRL/versions/kF7CvxTo/Cobblemon-fabric-1.7.3%2B1.21.1.jar",
+     "sha1": "f192cda3fdfec0f20d1dee1887ec1b9e77b1618c",
+     "byte": 135801550
+    },
+    {
+     "file": "xaeroworldmap-fabric-1.21.1-1.46.0.jar",
+     "cartella": "mods",
+     "url": "https://cdn.modrinth.com/data/NcUtCpym/versions/txl9KURC/xaeroworldmap-fabric-1.21.1-1.46.0.jar",
+     "sha1": "532942aff4536c46cd66d0b8fea2964740562319",
+     "byte": 1451734
+    },
+    {
+     "file": "sound-physics-remastered-fabric-1.21.1-1.5.1.jar",
+     "cartella": "mods",
+     "url": "https://cdn.modrinth.com/data/qyVF9oeo/versions/tVu2EZ4u/sound-physics-remastered-fabric-1.21.1-1.5.1.jar",
+     "sha1": "07d9f758338ad5be38b7fa1eb32c71a7c4840ea0",
+     "byte": 205671
+    },
+    {
+     "file": "mcw-lights-1.1.5-mc1.21.1fabric.jar",
+     "cartella": "mods",
+     "url": "https://cdn.modrinth.com/data/w4an97C2/versions/2tPrjftM/mcw-lights-1.1.5-mc1.21.1fabric.jar",
+     "sha1": "0dacc96b850d57f9d51c232b3c123698f4bc73b3",
+     "byte": 514085
+    },
+    {
+     "file": "openui-mc-fabric-1.21.1-0.0.10.jar",
+     "cartella": "mods",
+     "url": "https://thiaass.github.io/gamblemon/file/openui-mc-fabric-1.21.1-0.0.10.jar",
+     "sha1": "3c03c758591a327d6153f95f13da9ca34313bd93",
+     "byte": 1293185
+    },
+    {
+     "file": "cobbledgacha-fabric-1.21.1-3.0.3.jar",
+     "cartella": "mods",
+     "url": "https://cdn.modrinth.com/data/c1OpnQs3/versions/kqpoF9m4/cobbledgacha-fabric-1.21.1-3.0.3.jar",
+     "sha1": "333a38b02471dddc0a3efc03dc70a82a23a6d2d7",
+     "byte": 1148291
+    },
+    {
+     "file": "mcw-mcwwindows-2.4.2-mc1.21.1fabric.jar",
+     "cartella": "mods",
+     "url": "https://cdn.modrinth.com/data/C7I0BCni/versions/4mvfMpVO/mcw-mcwwindows-2.4.2-mc1.21.1fabric.jar",
+     "sha1": "0d47db265d99f75f29c93b37489b5602f37ec4af",
+     "byte": 1278810
+    },
+    {
+     "file": "geckolib-fabric-1.21.1-4.8.4.jar",
+     "cartella": "mods",
+     "url": "https://cdn.modrinth.com/data/8BmcQJ2H/versions/3GjkJptS/geckolib-fabric-1.21.1-4.8.4.jar",
+     "sha1": "4285fbb6222b5b49869aea8a3a2f67c086b1c8bc",
+     "byte": 653722
+    },
+    {
+     "file": "pokeblocks-1.5.0-1.21.1.jar",
+     "cartella": "mods",
+     "url": "https://cdn.modrinth.com/data/hnOfcjSq/versions/qlp66lU8/pokeblocks-1.5.0-1.21.1.jar",
+     "sha1": "a767426171b3085775b57bfd53b66fe7fa6edd88",
+     "byte": 1775159
+    },
+    {
+     "file": "MythsAndLegends-fabric-1.9.0.jar",
+     "cartella": "mods",
+     "url": "https://cdn.modrinth.com/data/CaOWby9K/versions/eg83qtSQ/MythsAndLegends-fabric-1.9.0.jar",
+     "sha1": "9acdd403a8c1a5544d7f779f301c5f3630d0a211",
+     "byte": 3249725
+    },
+    {
+     "file": "mcw-doors-1.1.5-mc1.21.1fabric.jar",
+     "cartella": "mods",
+     "url": "https://cdn.modrinth.com/data/kNxa8z3e/versions/Zsfvgzu6/mcw-doors-1.1.5-mc1.21.1fabric.jar",
+     "sha1": "7b31f8db94fff60eee188a5118438def65adba40",
+     "byte": 1219302
+    },
+    {
+     "file": "open-parties-and-claims-fabric-1.21.1-0.31.6.jar",
+     "cartella": "mods",
+     "url": "https://cdn.modrinth.com/data/gF3BGWvG/versions/IGnNGC9H/open-parties-and-claims-fabric-1.21.1-0.31.6.jar",
+     "sha1": "f76c545d061b482ada7815313a9f37616f6d2451",
+     "byte": 1911527
+    },
+    {
+     "file": "ForgeConfigAPIPort-v21.1.6-1.21.1-Fabric.jar",
+     "cartella": "mods",
+     "url": "https://cdn.modrinth.com/data/ohNO6lps/versions/N5qzq0XV/ForgeConfigAPIPort-v21.1.6-1.21.1-Fabric.jar",
+     "sha1": "18bf1f21cd2db6dcd4e42db85eae54e2a49a48ee",
+     "byte": 633065
+    },
+    {
+     "file": "SimpleTMs-fabric-2.3.3.jar",
+     "cartella": "mods",
+     "url": "https://cdn.modrinth.com/data/yFqR0DNc/versions/uWiIETYV/SimpleTMs-fabric-2.3.3.jar",
+     "sha1": "3433763bf6e20639213fd31a45da187968e61ffe",
+     "byte": 821382
+    },
+    {
+     "file": "cobblemon-hug-fabric-1.0.0.jar",
+     "cartella": "mods",
+     "url": "https://cdn.modrinth.com/data/eCHOrMh7/versions/z9BVSGc1/cobblemon-hug-fabric-1.0.0.jar",
+     "sha1": "42942b0e52481dd504ca2dfab487bf5ac20ed536",
+     "byte": 241700
+    },
+    {
+     "file": "PlayerAnimationLibFabric-1.1.6+mc.1.21.1.jar",
+     "cartella": "mods",
+     "url": "https://cdn.modrinth.com/data/ha1mEyJS/versions/tDcfU8FO/PlayerAnimationLibFabric-1.1.6%2Bmc.1.21.1.jar",
+     "sha1": "f33384448a9d3271b77ba61d658dc90f40949578",
+     "byte": 1154772
+    },
+    {
+     "file": "lithium-fabric-0.15.4+mc1.21.1.jar",
+     "cartella": "mods",
+     "url": "https://cdn.modrinth.com/data/gvQqBUqZ/versions/N08Z8wog/lithium-fabric-0.15.4%2Bmc1.21.1.jar",
+     "sha1": "7d82a004403b7780d4443d8e40361a55cfd0ae63",
+     "byte": 797454
+    },
+    {
+     "file": "modernfix-fabric-5.25.1+mc1.21.1.jar",
+     "cartella": "mods",
+     "url": "https://cdn.modrinth.com/data/nmDcB62a/versions/NnNX8LBn/modernfix-fabric-5.25.1%2Bmc1.21.1.jar",
+     "sha1": "4ab39e9c736e7204146792c545ec5b29fc0a3872",
+     "byte": 471258
+    },
+    {
+     "file": "ImmediatelyFast-Fabric-1.6.14+1.21.1.jar",
+     "cartella": "mods",
+     "url": "https://cdn.modrinth.com/data/5ZwdcRci/versions/7XKnsIC8/ImmediatelyFast-Fabric-1.6.14%2B1.21.1.jar",
+     "sha1": "023805be7d701b9769e987449d217c557de5f848",
+     "byte": 340166
+    },
+    {
+     "file": "entityculling-fabric-1.11.2-mc1.21.1.jar",
+     "cartella": "mods",
+     "url": "https://cdn.modrinth.com/data/NNAgCjsB/versions/AaC52CuD/entityculling-fabric-1.11.2-mc1.21.1.jar",
+     "sha1": "c400f3fb5f8668f99cdb52b5d4f92d11b4e3edf1",
+     "byte": 1519213
+    },
+    {
+     "file": "dynamic-fps-3.11.4+minecraft-1.21.0-fabric.jar",
+     "cartella": "mods",
+     "url": "https://cdn.modrinth.com/data/LQ3K71Q1/versions/GBH14HiF/dynamic-fps-3.11.4%2Bminecraft-1.21.0-fabric.jar",
+     "sha1": "c0ee92c6d8a48e077aa9b02f3470619eab17d59c",
+     "byte": 217532
+    },
+    {
+     "file": "cwb-fabric-3.0.0+mc1.21.jar",
+     "cartella": "mods",
+     "url": "https://cdn.modrinth.com/data/ETlrkaYF/versions/m350hyy8/cwb-fabric-3.0.0%2Bmc1.21.jar",
+     "sha1": "0979201d1d131a3bf0594060c58da7dcb55aded6",
+     "byte": 81288
+    },
+    {
+     "file": "extra-move-anims-cobblemon-1.7v1.0.2.jar",
+     "cartella": "mods",
+     "url": "https://cdn.modrinth.com/data/jYnliKOv/versions/XQZtyZyc/extra-move-anims-cobblemon-1.7v1.0.2.jar",
+     "sha1": "88f5f5290a98311bed5e9ce68553f4447d18af9f",
+     "byte": 584731
+    },
+    {
+     "file": "gamblemon-2.15.2.jar",
+     "cartella": "mods",
+     "url": "https://thiaass.github.io/gamblemon/file/gamblemon-2.15.2.jar",
+     "sha1": "8c2322a0ecce8832addf2a7d20b92a7aaef38da4",
+     "byte": 11888729
+    },
+    {
+     "file": "CobblemonMoreCosmetics Release v1.1.7-1.21.x.zip",
+     "cartella": "resourcepacks",
+     "url": "https://cdn.modrinth.com/data/M4vjzYDD/versions/jN3II9NG/CobblemonMoreCosmetics%20Release%20v1.1.7-1.21.x.zip",
+     "sha1": "82745faed6e9c77c562ec2ac09e7ac9a12ec8960",
+     "byte": 2731677
+    },
+    {
+     "file": "winterglides-extra-animations-1.1.zip",
+     "cartella": "resourcepacks",
+     "url": "https://cdn.modrinth.com/data/F4TxEYXe/versions/UbNNUg3g/Winterglide%27s%20Extra%20Animations%20%5BCobblemon%5D.zip",
+     "sha1": "726d2cc33387263e854b217c4f01498ddd5f862f",
+     "byte": 71707
+    }
+   ],
+   "extra": {
+    "url": "https://thiaass.github.io/gamblemon/extra-light.zip",
+    "sha1": "5cf68552c777e8eca5b3f7754586d607649c2bcc",
+    "byte": 486881
+   }
+  },
+  "ultra": {
+   "nome": "Gamblemon Ultra",
+   "mods": [
+    {
+     "file": "accessories-fabric-1.1.0-beta.53+1.21.1.jar",
+     "cartella": "mods",
+     "url": "https://cdn.modrinth.com/data/jtmvUHXj/versions/Xlt4eWBe/accessories-fabric-1.1.0-beta.53%2B1.21.1.jar",
+     "sha1": "fa0b11de088893bb14aff945d0e8efdee165457b",
+     "byte": 1095802
+    },
+    {
+     "file": "mcw-mcwstairs-1.0.2-mc1.21.1fabric.jar",
+     "cartella": "mods",
+     "url": "https://cdn.modrinth.com/data/iP3wH1ha/versions/VXYxDkZ8/mcw-mcwstairs-1.0.2-mc1.21.1fabric.jar",
+     "sha1": "1b549de4a2a4059e56ed8868b556e3746adc73fb",
+     "byte": 521922
+    },
+    {
+     "file": "mcw-furniture-3.4.1-mc1.21.1fabric.jar",
+     "cartella": "mods",
+     "url": "https://cdn.modrinth.com/data/dtWC90iB/versions/x2pXgG0s/mcw-furniture-3.4.1-mc1.21.1fabric.jar",
+     "sha1": "4c914a4d3bb84103b34346e60c6aa981be8dfa23",
+     "byte": 2087232
+    },
+    {
+     "file": "fabric-api-0.116.17+1.21.1.jar",
+     "cartella": "mods",
+     "url": "https://cdn.modrinth.com/data/P7dR8mSH/versions/Mys3P7lK/fabric-api-0.116.17%2B1.21.1.jar",
+     "sha1": "810b2b0195371a012906241d8b85a32a1d6de53c",
+     "byte": 2452735
+    },
+    {
+     "file": "voicechat-fabric-1.21.1-2.6.22.jar",
+     "cartella": "mods",
+     "url": "https://cdn.modrinth.com/data/9eGKb6K1/versions/VS5X7jZd/voicechat-fabric-1.21.1-2.6.22.jar",
+     "sha1": "2b3f229ed746955b756807a92e09e9a32d636776",
+     "byte": 5369475
+    },
+    {
+     "file": "legendarymonuments-fabric-1.21.1-8.1-Love_for_All.jar",
+     "cartella": "mods",
+     "url": "https://cdn.modrinth.com/data/m6RyHSbV/versions/F6Ub0Gga/legendarymonuments-fabric-1.21.1-8.1-Love_for_All.jar",
+     "sha1": "b97c7bf8c9c445658e9fdc74045871ce55dbec61",
+     "byte": 16611506
+    },
+    {
+     "file": "lithostitched-1.8.0+beta6-fabric-21.1.jar",
+     "cartella": "mods",
+     "url": "https://cdn.modrinth.com/data/XaDC71GB/versions/LC0qLyud/lithostitched-1.8.0%2Bbeta6-fabric-21.1.jar",
+     "sha1": "bfee403bcc202930c4f74dbbfdba417376927372",
+     "byte": 970257
+    },
+    {
+     "file": "fabric-language-kotlin-1.14.1+kotlin.2.4.20.jar",
+     "cartella": "mods",
+     "url": "https://cdn.modrinth.com/data/Ha28R6CL/versions/eRRZzGMc/fabric-language-kotlin-1.14.1%2Bkotlin.2.4.20.jar",
+     "sha1": "62ae40a31b689b52fde399f2143d547a631e942c",
+     "byte": 8142858
+    },
+    {
+     "file": "athena-fabric-1.21.1-4.0.6.jar",
+     "cartella": "mods",
+     "url": "https://cdn.modrinth.com/data/b1ZV3DIJ/versions/JfyYsWKP/athena-fabric-1.21.1-4.0.6.jar",
+     "sha1": "92534d85cad33ab1fee598068443c685f4bb06e0",
+     "byte": 88425
+    },
+    {
+     "file": "audioplayer-fabric-1.21.1-1.13.2.jar",
+     "cartella": "mods",
+     "url": "https://cdn.modrinth.com/data/SRlzjEBS/versions/7SlDRxwD/audioplayer-fabric-1.21.1-1.13.2.jar",
+     "sha1": "28778446f57145ed30721c2bb03af8a6aa6e1664",
+     "byte": 791232
+    },
+    {
+     "file": "xaerominimap-fabric-1.21.1-26.5.0.jar",
+     "cartella": "mods",
+     "url": "https://cdn.modrinth.com/data/1bokaNcj/versions/ZD6hK4GV/xaerominimap-fabric-1.21.1-26.5.0.jar",
+     "sha1": "b9cec1acb286b6d7c05759c0c1e4b8a04f28d785",
+     "byte": 2233763
+    },
+    {
+     "file": "E19 Cobblemon Minimap Icons.zip",
+     "cartella": "resourcepacks",
+     "url": "https://cdn.modrinth.com/data/Va3BanZa/versions/YGgixlha/E19%20Cobblemon%20Minimap%20Icons.zip",
+     "sha1": "1aefc7a313b3c6f719d2fa53916afff18cd0792f",
+     "byte": 19398814
+    },
+    {
+     "file": "mega_showdown-fabric-1.9.9+1.7.3+1.21.1.jar",
+     "cartella": "mods",
+     "url": "https://cdn.modrinth.com/data/SszvX85I/versions/13b1fBn2/mega_showdown-fabric-1.9.9%2B1.7.3%2B1.21.1.jar",
+     "sha1": "24fea20eea912ae6a0f8006901c782a94e1ea82f",
+     "byte": 20450537
+    },
+    {
+     "file": "architectury-13.0.11-fabric.jar",
+     "cartella": "mods",
+     "url": "https://cdn.modrinth.com/data/lhGA9TYQ/versions/Pzc2FP5K/architectury-13.0.11-fabric.jar",
+     "sha1": "18200609d4c3571c4237b50884966f6fd82431ea",
+     "byte": 600921
+    },
+    {
+     "file": "mcw-bridges-3.1.2-mc1.21.1fabric.jar",
+     "cartella": "mods",
+     "url": "https://cdn.modrinth.com/data/GURcjz8O/versions/pl1CA7dW/mcw-bridges-3.1.2-mc1.21.1fabric.jar",
+     "sha1": "c496bc2bc330e23c5100fd0a2421d12d4da7cd11",
+     "byte": 666524
+    },
+    {
+     "file": "ferritecore-7.0.3-fabric.jar",
+     "cartella": "mods",
+     "url": "https://cdn.modrinth.com/data/uXXizFIs/versions/sOzRw3CG/ferritecore-7.0.3-fabric.jar",
+     "sha1": "a8a6a34fcda177da2828cedef44e0e538cf78aad",
+     "byte": 123450
+    },
+    {
+     "file": "Only Bottle Caps-1.4.0.jar",
+     "cartella": "mods",
+     "url": "https://cdn.modrinth.com/data/tDRRddpZ/versions/xkaDeFly/Only%20Bottle%20Caps-1.4.0.jar",
+     "sha1": "b4bcc62a37568608cd69556a80d8ab448244ec22",
+     "byte": 250921
+    },
+    {
+     "file": "MakeUp-UltraFast-9.5e.zip",
+     "cartella": "shaderpacks",
+     "url": "https://cdn.modrinth.com/data/izsIPI7a/versions/T3EhqZo1/MakeUp-UltraFast-9.5e.zip",
+     "sha1": "84f7f6ddf81f602ff241fb9c576411cdda309f9e",
+     "byte": 400417
+    },
+    {
+     "file": "mcw-paintings-1.1.0-mc1.21.1fabric.jar",
+     "cartella": "mods",
+     "url": "https://cdn.modrinth.com/data/okE6QVAY/versions/1TcCdrZ2/mcw-paintings-1.1.0-mc1.21.1fabric.jar",
+     "sha1": "c987bbb2aa9b01da8604f955a26f9d06876d25c3",
+     "byte": 179348
+    },
+    {
+     "file": "kantonpcs-1.0.5.jar",
+     "cartella": "mods",
+     "url": "https://cdn.modrinth.com/data/ifw9j2BM/versions/uo9mtS5O/kantonpcs-1.0.5.jar",
+     "sha1": "200a1bb7cc681e18e651f1f34b37c3a51cce8992",
+     "byte": 1808869
+    },
+    {
+     "file": "sodium-fabric-0.8.12+mc1.21.1.jar",
+     "cartella": "mods",
+     "url": "https://cdn.modrinth.com/data/AANobbMI/versions/KIRFiWG4/sodium-fabric-0.8.12%2Bmc1.21.1.jar",
+     "sha1": "70381d969eb63c0aa09dc581ef4b9a79782c0123",
+     "byte": 1573180
+    },
+    {
+     "file": "owo-lib-0.12.15.4+1.21.jar",
+     "cartella": "mods",
+     "url": "https://cdn.modrinth.com/data/ccKDOlHs/versions/JB1fLQnc/owo-lib-0.12.15.4%2B1.21.jar",
+     "sha1": "45725e6d33b624e565a7a6e5d3627af40814288d",
+     "byte": 1183559
+    },
+    {
+     "file": "mcw-mcwfences-1.2.1-mc1.21.1fabric.jar",
+     "cartella": "mods",
+     "url": "https://cdn.modrinth.com/data/GmwLse2I/versions/ZGMGDbjg/mcw-mcwfences-1.2.1-mc1.21.1fabric.jar",
+     "sha1": "f9be270761e17ad131f186b2537c2ce2f305815a",
+     "byte": 651571
+    },
+    {
+     "file": "mcw-paths-1.1.2-mc1.21.1fabric.jar",
+     "cartella": "mods",
+     "url": "https://cdn.modrinth.com/data/VRLhWB91/versions/eINOtRRK/mcw-paths-1.1.2-mc1.21.1fabric.jar",
+     "sha1": "c639899d476dd55a37c1049658898db32157af1c",
+     "byte": 767800
+    },
+    {
+     "file": "immersive_furniture-fabric-0.3.3+1.21.1.jar",
+     "cartella": "mods",
+     "url": "https://cdn.modrinth.com/data/SvN6UGeF/versions/kCFeaaoC/immersive_furniture-fabric-0.3.3%2B1.21.1.jar",
+     "sha1": "64bd7d41204bb84feb34e12b99192c784fe987c9",
+     "byte": 1025500
+    },
+    {
+     "file": "mcw-roofs-2.3.2-mc1.21.1fabric.jar",
+     "cartella": "mods",
+     "url": "https://cdn.modrinth.com/data/B8jaH3P1/versions/BgPUaaiV/mcw-roofs-2.3.2-mc1.21.1fabric.jar",
+     "sha1": "2367e5972a8ab30cc4f764e6ec98841e3eaa341a",
+     "byte": 1790000
+    },
+    {
+     "file": "packetfixer-3.3.1-1.20.5-1.21.X-merged.jar",
+     "cartella": "mods",
+     "url": "https://cdn.modrinth.com/data/c7m1mi73/versions/2C41Q8WX/packetfixer-3.3.1-1.20.5-1.21.X-merged.jar",
+     "sha1": "a8bb6e25807682e72c23bf4065f3cd5f6373ece3",
+     "byte": 46623
+    },
+    {
+     "file": "chipped-fabric-1.21.1-4.0.2.jar",
+     "cartella": "mods",
+     "url": "https://cdn.modrinth.com/data/BAscRYKm/versions/6h2mVZcb/chipped-fabric-1.21.1-4.0.2.jar",
+     "sha1": "add18f65d7b131e05313cd98069cb71adac3483c",
+     "byte": 15016830
+    },
+    {
+     "file": "mcw-holidays-1.1.2-mc1.21.1fabric.jar",
+     "cartella": "mods",
+     "url": "https://cdn.modrinth.com/data/rH20L2Lp/versions/lUJ6xjps/mcw-holidays-1.1.2-mc1.21.1fabric.jar",
+     "sha1": "59a0d8de46d73ad29c907715d0e2c4973f7c369b",
+     "byte": 999600
+    },
+    {
+     "file": "cobblestats-fabric-1.9.2+1.21.1.jar",
+     "cartella": "mods",
+     "url": "https://cdn.modrinth.com/data/jlXFcQk4/versions/uxsx4bK4/cobblestats-fabric-1.9.2%2B1.21.1.jar",
+     "sha1": "f5906ebd0b55a43b34429995c74f9a6cbe2ecce1",
+     "byte": 68007
+    },
+    {
+     "file": "iris-fabric-1.8.14-beta.1+mc1.21.1.jar",
+     "cartella": "mods",
+     "url": "https://cdn.modrinth.com/data/YL57xq9U/versions/bAo1Qhte/iris-fabric-1.8.14-beta.1%2Bmc1.21.1.jar",
+     "sha1": "6776c0340845887477bfa463acc736ce7fcb6de5",
+     "byte": 2791343
+    },
+    {
+     "file": "mcw-trapdoors-1.1.5-mc1.21.1fabric.jar",
+     "cartella": "mods",
+     "url": "https://cdn.modrinth.com/data/n2fvCDlM/versions/Nr24HhRK/mcw-trapdoors-1.1.5-mc1.21.1fabric.jar",
+     "sha1": "ecf7e153e9ae9fa4707ad6f200177ae87d0bbfff",
+     "byte": 568267
+    },
+    {
+     "file": "worldedit-mod-7.3.8.jar",
+     "cartella": "mods",
+     "url": "https://cdn.modrinth.com/data/1u6JkXh5/versions/WTAFvuRx/worldedit-mod-7.3.8.jar",
+     "sha1": "924fe181a29bd66be6783f6d589968ab0ee02250",
+     "byte": 6222854
+    },
+    {
+     "file": "resourcefullib-fabric-1.21-3.0.12.jar",
+     "cartella": "mods",
+     "url": "https://cdn.modrinth.com/data/G1hIVOrD/versions/Hf91FuVF/resourcefullib-fabric-1.21-3.0.12.jar",
+     "sha1": "cb67e1302b5116953f45556cc61dbcf40d986ecd",
+     "byte": 485586
+    },
+    {
+     "file": "Cobblemon-fabric-1.7.3+1.21.1.jar",
+     "cartella": "mods",
+     "url": "https://cdn.modrinth.com/data/MdwFAVRL/versions/kF7CvxTo/Cobblemon-fabric-1.7.3%2B1.21.1.jar",
+     "sha1": "f192cda3fdfec0f20d1dee1887ec1b9e77b1618c",
+     "byte": 135801550
+    },
+    {
+     "file": "xaeroworldmap-fabric-1.21.1-1.46.0.jar",
+     "cartella": "mods",
+     "url": "https://cdn.modrinth.com/data/NcUtCpym/versions/txl9KURC/xaeroworldmap-fabric-1.21.1-1.46.0.jar",
+     "sha1": "532942aff4536c46cd66d0b8fea2964740562319",
+     "byte": 1451734
+    },
+    {
+     "file": "sound-physics-remastered-fabric-1.21.1-1.5.1.jar",
+     "cartella": "mods",
+     "url": "https://cdn.modrinth.com/data/qyVF9oeo/versions/tVu2EZ4u/sound-physics-remastered-fabric-1.21.1-1.5.1.jar",
+     "sha1": "07d9f758338ad5be38b7fa1eb32c71a7c4840ea0",
+     "byte": 205671
+    },
+    {
+     "file": "mcw-lights-1.1.5-mc1.21.1fabric.jar",
+     "cartella": "mods",
+     "url": "https://cdn.modrinth.com/data/w4an97C2/versions/2tPrjftM/mcw-lights-1.1.5-mc1.21.1fabric.jar",
+     "sha1": "0dacc96b850d57f9d51c232b3c123698f4bc73b3",
+     "byte": 514085
+    },
+    {
+     "file": "openui-mc-fabric-1.21.1-0.0.10.jar",
+     "cartella": "mods",
+     "url": "https://thiaass.github.io/gamblemon/file/openui-mc-fabric-1.21.1-0.0.10.jar",
+     "sha1": "3c03c758591a327d6153f95f13da9ca34313bd93",
+     "byte": 1293185
+    },
+    {
+     "file": "cobbledgacha-fabric-1.21.1-3.0.3.jar",
+     "cartella": "mods",
+     "url": "https://cdn.modrinth.com/data/c1OpnQs3/versions/kqpoF9m4/cobbledgacha-fabric-1.21.1-3.0.3.jar",
+     "sha1": "333a38b02471dddc0a3efc03dc70a82a23a6d2d7",
+     "byte": 1148291
+    },
+    {
+     "file": "mcw-mcwwindows-2.4.2-mc1.21.1fabric.jar",
+     "cartella": "mods",
+     "url": "https://cdn.modrinth.com/data/C7I0BCni/versions/4mvfMpVO/mcw-mcwwindows-2.4.2-mc1.21.1fabric.jar",
+     "sha1": "0d47db265d99f75f29c93b37489b5602f37ec4af",
+     "byte": 1278810
+    },
+    {
+     "file": "geckolib-fabric-1.21.1-4.8.4.jar",
+     "cartella": "mods",
+     "url": "https://cdn.modrinth.com/data/8BmcQJ2H/versions/3GjkJptS/geckolib-fabric-1.21.1-4.8.4.jar",
+     "sha1": "4285fbb6222b5b49869aea8a3a2f67c086b1c8bc",
+     "byte": 653722
+    },
+    {
+     "file": "pokeblocks-1.5.0-1.21.1.jar",
+     "cartella": "mods",
+     "url": "https://cdn.modrinth.com/data/hnOfcjSq/versions/qlp66lU8/pokeblocks-1.5.0-1.21.1.jar",
+     "sha1": "a767426171b3085775b57bfd53b66fe7fa6edd88",
+     "byte": 1775159
+    },
+    {
+     "file": "MythsAndLegends-fabric-1.9.0.jar",
+     "cartella": "mods",
+     "url": "https://cdn.modrinth.com/data/CaOWby9K/versions/eg83qtSQ/MythsAndLegends-fabric-1.9.0.jar",
+     "sha1": "9acdd403a8c1a5544d7f779f301c5f3630d0a211",
+     "byte": 3249725
+    },
+    {
+     "file": "mcw-doors-1.1.5-mc1.21.1fabric.jar",
+     "cartella": "mods",
+     "url": "https://cdn.modrinth.com/data/kNxa8z3e/versions/Zsfvgzu6/mcw-doors-1.1.5-mc1.21.1fabric.jar",
+     "sha1": "7b31f8db94fff60eee188a5118438def65adba40",
+     "byte": 1219302
+    },
+    {
+     "file": "open-parties-and-claims-fabric-1.21.1-0.31.6.jar",
+     "cartella": "mods",
+     "url": "https://cdn.modrinth.com/data/gF3BGWvG/versions/IGnNGC9H/open-parties-and-claims-fabric-1.21.1-0.31.6.jar",
+     "sha1": "f76c545d061b482ada7815313a9f37616f6d2451",
+     "byte": 1911527
+    },
+    {
+     "file": "ForgeConfigAPIPort-v21.1.6-1.21.1-Fabric.jar",
+     "cartella": "mods",
+     "url": "https://cdn.modrinth.com/data/ohNO6lps/versions/N5qzq0XV/ForgeConfigAPIPort-v21.1.6-1.21.1-Fabric.jar",
+     "sha1": "18bf1f21cd2db6dcd4e42db85eae54e2a49a48ee",
+     "byte": 633065
+    },
+    {
+     "file": "SimpleTMs-fabric-2.3.3.jar",
+     "cartella": "mods",
+     "url": "https://cdn.modrinth.com/data/yFqR0DNc/versions/uWiIETYV/SimpleTMs-fabric-2.3.3.jar",
+     "sha1": "3433763bf6e20639213fd31a45da187968e61ffe",
+     "byte": 821382
+    },
+    {
+     "file": "cobblemon-hug-fabric-1.0.0.jar",
+     "cartella": "mods",
+     "url": "https://cdn.modrinth.com/data/eCHOrMh7/versions/z9BVSGc1/cobblemon-hug-fabric-1.0.0.jar",
+     "sha1": "42942b0e52481dd504ca2dfab487bf5ac20ed536",
+     "byte": 241700
+    },
+    {
+     "file": "PlayerAnimationLibFabric-1.1.6+mc.1.21.1.jar",
+     "cartella": "mods",
+     "url": "https://cdn.modrinth.com/data/ha1mEyJS/versions/tDcfU8FO/PlayerAnimationLibFabric-1.1.6%2Bmc.1.21.1.jar",
+     "sha1": "f33384448a9d3271b77ba61d658dc90f40949578",
+     "byte": 1154772
+    },
+    {
+     "file": "lithium-fabric-0.15.4+mc1.21.1.jar",
+     "cartella": "mods",
+     "url": "https://cdn.modrinth.com/data/gvQqBUqZ/versions/N08Z8wog/lithium-fabric-0.15.4%2Bmc1.21.1.jar",
+     "sha1": "7d82a004403b7780d4443d8e40361a55cfd0ae63",
+     "byte": 797454
+    },
+    {
+     "file": "modernfix-fabric-5.25.1+mc1.21.1.jar",
+     "cartella": "mods",
+     "url": "https://cdn.modrinth.com/data/nmDcB62a/versions/NnNX8LBn/modernfix-fabric-5.25.1%2Bmc1.21.1.jar",
+     "sha1": "4ab39e9c736e7204146792c545ec5b29fc0a3872",
+     "byte": 471258
+    },
+    {
+     "file": "ImmediatelyFast-Fabric-1.6.14+1.21.1.jar",
+     "cartella": "mods",
+     "url": "https://cdn.modrinth.com/data/5ZwdcRci/versions/7XKnsIC8/ImmediatelyFast-Fabric-1.6.14%2B1.21.1.jar",
+     "sha1": "023805be7d701b9769e987449d217c557de5f848",
+     "byte": 340166
+    },
+    {
+     "file": "entityculling-fabric-1.11.2-mc1.21.1.jar",
+     "cartella": "mods",
+     "url": "https://cdn.modrinth.com/data/NNAgCjsB/versions/AaC52CuD/entityculling-fabric-1.11.2-mc1.21.1.jar",
+     "sha1": "c400f3fb5f8668f99cdb52b5d4f92d11b4e3edf1",
+     "byte": 1519213
+    },
+    {
+     "file": "Better-Leaves-9.6.zip",
+     "cartella": "resourcepacks",
+     "url": "https://cdn.modrinth.com/data/uvpymuxq/versions/w4ReEpuG/Better-Leaves-9.6.zip",
+     "sha1": "fa3a961b82a9f15a4e80b1f7f021bc121649f073",
+     "byte": 1977146
+    },
+    {
+     "file": "ComplementaryUnbound_r5.9.3.zip",
+     "cartella": "shaderpacks",
+     "url": "https://cdn.modrinth.com/data/R6NEzAwj/versions/B1kyfoUZ/ComplementaryUnbound_r5.9.3.zip",
+     "sha1": "2ee08300e1d6f039e63eae8484dddf57b3aaaf67",
+     "byte": 553400
+    },
+    {
+     "file": "punchy-2.8b-fabric-1.21.1.jar",
+     "cartella": "mods",
+     "url": "https://cdn.modrinth.com/data/8aoMKplv/versions/BKIChU5m/punchy-2.8b-fabric-1.21.1.jar",
+     "sha1": "7dd39e751f06311e952cabdd58269e684f1c964b",
+     "byte": 1855001
+    },
+    {
+     "file": "DistantHorizons-3.3.3-1.21.1-fabric-neoforge.jar",
+     "cartella": "mods",
+     "url": "https://cdn.modrinth.com/data/uCdwusMi/versions/9w34y8ai/DistantHorizons-3.3.3-1.21.1-fabric-neoforge.jar",
+     "sha1": "4357b4d19fab818780c94f0e43dad1cc931634b2",
+     "byte": 28289212
+    },
+    {
+     "file": "cwb-fabric-3.0.0+mc1.21.jar",
+     "cartella": "mods",
+     "url": "https://cdn.modrinth.com/data/ETlrkaYF/versions/m350hyy8/cwb-fabric-3.0.0%2Bmc1.21.jar",
+     "sha1": "0979201d1d131a3bf0594060c58da7dcb55aded6",
+     "byte": 81288
+    },
+    {
+     "file": "extra-move-anims-cobblemon-1.7v1.0.2.jar",
+     "cartella": "mods",
+     "url": "https://cdn.modrinth.com/data/jYnliKOv/versions/XQZtyZyc/extra-move-anims-cobblemon-1.7v1.0.2.jar",
+     "sha1": "88f5f5290a98311bed5e9ce68553f4447d18af9f",
+     "byte": 584731
+    },
+    {
+     "file": "gamblemon-2.15.2.jar",
+     "cartella": "mods",
+     "url": "https://thiaass.github.io/gamblemon/file/gamblemon-2.15.2.jar",
+     "sha1": "8c2322a0ecce8832addf2a7d20b92a7aaef38da4",
+     "byte": 11888729
+    },
+    {
+     "file": "CobblemonMoreCosmetics Release v1.1.7-1.21.x.zip",
+     "cartella": "resourcepacks",
+     "url": "https://cdn.modrinth.com/data/M4vjzYDD/versions/jN3II9NG/CobblemonMoreCosmetics%20Release%20v1.1.7-1.21.x.zip",
+     "sha1": "82745faed6e9c77c562ec2ac09e7ac9a12ec8960",
+     "byte": 2731677
+    },
+    {
+     "file": "winterglides-extra-animations-1.1.zip",
+     "cartella": "resourcepacks",
+     "url": "https://cdn.modrinth.com/data/F4TxEYXe/versions/UbNNUg3g/Winterglide%27s%20Extra%20Animations%20%5BCobblemon%5D.zip",
+     "sha1": "726d2cc33387263e854b217c4f01498ddd5f862f",
+     "byte": 71707
+    },
+    {
+     "file": "ItemPhysicLite_FABRIC_v1.6.13_mc1.21.1.jar",
+     "cartella": "mods",
+     "url": "https://cdn.modrinth.com/data/OuyCgP8t/versions/S1Hiel0e/ItemPhysicLite_FABRIC_v1.6.13_mc1.21.1.jar",
+     "sha1": "6ee78eb984812a662addb4c954400017a77828b0",
+     "byte": 23765
+    },
+    {
+     "file": "CreativeCore_FABRIC_v2.13.48_mc1.21.1.jar",
+     "cartella": "mods",
+     "url": "https://cdn.modrinth.com/data/OsZiaDHq/versions/v7fZmKvM/CreativeCore_FABRIC_v2.13.48_mc1.21.1.jar",
+     "sha1": "d134ccaf1030973e47f1b2eac7c834e438ae0ab6",
+     "byte": 1257391
+    }
+   ],
+   "extra": {
+    "url": "https://thiaass.github.io/gamblemon/extra-ultra.zip",
+    "sha1": "2b74ba2f9eaa5a808507dd4f59a30c91364a792d",
+    "byte": 486992
+   }
+  }
+ }
+}

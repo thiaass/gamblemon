@@ -1,13 +1,23 @@
 {
   "_leggimi": "Extra dell'app che non si possono installare (slug o id Modrinth -> motivo). L'app ricontrolla anche quelli gia' installati quando si preme Gioca.",
   "bloccati": {
-    "journeymap": "c'è già la minimappa di Xaero nel modpack",
-    "voxelmap-updated": "c'è già la minimappa di Xaero nel modpack",
+    "journeymap": "c'è già la mappa di Gamblemon nel modpack",
+    "voxelmap-updated": "c'è già la mappa di Gamblemon nel modpack",
     "freecam": "fa vedere attraverso i muri",
     "tweakeroo": "ha funzioni da trucco (freecam e simili)",
     "seedcrackerx": "trova il seed del mondo",
     "xray-ultimate": "fa vedere i minerali attraverso i blocchi",
     "advanced-xray": "fa vedere i minerali attraverso i blocchi",
-    "optifabric": "non funziona con Sodium e Iris del modpack"
+    "optifabric": "non funziona con Sodium e Iris del modpack",
+    "diorama-map": "c'è già la mappa di Gamblemon nel modpack",
+    "immersive-minimaps": "c'è già la mappa di Gamblemon nel modpack",
+    "entity": "c'è già la mappa di Gamblemon nel modpack",
+    "roman-minimap": "c'è già la mappa di Gamblemon nel modpack",
+    "project-minimap-hud": "c'è già la mappa di Gamblemon nel modpack",
+    "oaks-minimap": "c'è già la mappa di Gamblemon nel modpack",
+    "racing-minimap": "c'è già la mappa di Gamblemon nel modpack",
+    "xaeroplus": "c'è già la mappa di Gamblemon nel modpack",
+    "antique-atlas": "c'è già la mappa di Gamblemon nel modpack",
+    "remnants-minimap": "c'è già la mappa di Gamblemon nel modpack"
   }
 }

@@ -1,6 +1,6 @@
 {
  "nome": "Gamblemon",
- "versione": "2.16.3",
+ "versione": "2.16.4",
  "minecraft": "1.21.1",
  "fabric": "0.19.5",
  "edizioni": {
@@ -400,11 +400,11 @@
      "byte": 584731
     },
     {
-     "file": "gamblemon-2.16.3.jar",
+     "file": "gamblemon-2.16.4.jar",
      "cartella": "mods",
-     "url": "https://thiaass.github.io/gamblemon/file/gamblemon-2.16.3.jar",
-     "sha1": "f0ffe4be6540eaace4f45dae316fca189703c3fd",
-     "byte": 11946325
+     "url": "https://thiaass.github.io/gamblemon/file/gamblemon-2.16.4.jar",
+     "sha1": "\\6f8c3a8d202852e54bfb5f761d540d6f304a604",
+     "byte": 11951464
     },
     {
      "file": "CobblemonMoreCosmetics Release v1.1.7-1.21.x.zip",
@@ -851,11 +851,11 @@
      "byte": 584731
     },
     {
-     "file": "gamblemon-2.16.3.jar",
+     "file": "gamblemon-2.16.4.jar",
      "cartella": "mods",
-     "url": "https://thiaass.github.io/gamblemon/file/gamblemon-2.16.3.jar",
-     "sha1": "f0ffe4be6540eaace4f45dae316fca189703c3fd",
-     "byte": 11946325
+     "url": "https://thiaass.github.io/gamblemon/file/gamblemon-2.16.4.jar",
+     "sha1": "\\6f8c3a8d202852e54bfb5f761d540d6f304a604",
+     "byte": 11951464
     },
     {
      "file": "CobblemonMoreCosmetics Release v1.1.7-1.21.x.zip",
@@ -1309,11 +1309,11 @@
      "byte": 584731
     },
     {
-     "file": "gamblemon-2.16.3.jar",
+     "file": "gamblemon-2.16.4.jar",
      "cartella": "mods",
-     "url": "https://thiaass.github.io/gamblemon/file/gamblemon-2.16.3.jar",
-     "sha1": "f0ffe4be6540eaace4f45dae316fca189703c3fd",
-     "byte": 11946325
+     "url": "https://thiaass.github.io/gamblemon/file/gamblemon-2.16.4.jar",
+     "sha1": "\\6f8c3a8d202852e54bfb5f761d540d6f304a604",
+     "byte": 11951464
     },
     {
      "file": "CobblemonMoreCosmetics Release v1.1.7-1.21.x.zip",
@@ -1364,9 +1364,9 @@
   "sha1": "4b27ea452a5de481bf4b7222189f7ad8f1a3fde4"
  },
  "pack": {
-  "versione": "2.15.2",
-  "sha1": "1780e76c8b4d3a29bffb1667f60c9a399e4f2116",
-  "url": "https://thiaass.github.io/gamblemon/pack/gamblemon-pack-2.15.2.zip",
-  "urlAlt": "https://github.com/thiaass/gamblemon/releases/download/pack-2.15.2/gamblemon-pack-2.15.2.zip"
+  "versione": "2.16.4",
+  "sha1": "74d06b9e012daa37243b85886d1612df6cb71abc",
+  "url": "https://thiaass.github.io/gamblemon/pack/gamblemon-pack-2.16.4.zip",
+  "urlAlt": "https://github.com/thiaass/gamblemon/releases/download/pack-2.16.4/gamblemon-pack-2.16.4.zip"
  }
 }

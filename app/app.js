@@ -22,7 +22,7 @@ const DEMO_STATO = {
 const SEZIONI = {
   gioca: 'Gioca',
   novita: 'Novità',
-  proposte: 'Proposte',
+  proposte: 'Idee',
   extra: 'Extra'
 };
 

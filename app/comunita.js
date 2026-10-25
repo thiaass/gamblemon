@@ -233,7 +233,8 @@
     t.appendChild(chi);
     var info = el('span', 'com-info');
     info.appendChild(el('span', 'com-cat', CATEGORIE[p.categoria] || p.categoria));
-    info.appendChild(el('span', 'com-stato com-stato-' + p.stato, STATI[p.stato] || p.stato));
+    // le proposte in lista sono tutte approvate: si mostra solo lo stato "Nel gioco" (thias 25/10)
+    if (p.stato !== 'approvata') info.appendChild(el('span', 'com-stato com-stato-' + p.stato, STATI[p.stato] || p.stato));
     if (p.nuova) {
       var n = el('span', 'com-nuova', 'NUOVA');
       n.setAttribute('data-nuova', p.id);

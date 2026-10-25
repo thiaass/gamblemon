@@ -1242,3 +1242,8 @@ label#prop-scegli, label[for="prop-file"] { cursor: pointer; }
 /* Schermo intero: la pagina 960x600 ingrandita e centrata (app.js adattaSchermo) */
 html.intero { width: 100vw; height: 100vh; background: var(--colonna); }
 html.intero body { transform-origin: 0 0; }
+.ext-avviso { position: absolute; inset: 0; z-index: 20; display: flex; flex-direction: column; justify-content: center; gap: 10px; padding: 24px; background: rgba(12, 12, 14, 0.94); }
+.ext-avviso h3 { margin: 0; font-size: 18px; color: var(--testo); }
+.ext-avviso p { margin: 0; max-width: 520px; color: var(--testo); line-height: 1.5; }
+.ext-avviso button { align-self: flex-start; }
+#sez-extra { position: relative; }

@@ -374,12 +374,49 @@
 
   /* ---------- azioni ---------- */
 
+  // La prima volta che si installa un extra, un avviso che resta 5 secondi prima di poter continuare (thias 25/10).
+  // Dopo, la stessa informazione resta sempre nella sezione. Niente dati: e' solo un avviso.
+  var AVVISO_KEY = 'gm-extra-avviso-visto', ATTESA_AVVISO_S = 5;
+
+  function avvisoPrimaVolta(continua) {
+    var visto = false;
+    try { visto = localStorage.getItem(AVVISO_KEY) === '1'; } catch (e) {}
+    if (visto) { continua(); return; }
+    var box = el('div', 'ext-avviso');
+    box.setAttribute('role', 'dialog');
+    box.setAttribute('aria-modal', 'true');
+    box.appendChild(el('h3', null, 'Prima di installare un extra'));
+    box.appendChild(el('p', null, 'Gli extra restano sul tuo PC, e servono solo a te. Non sono mod del modpack: le mod che cambiano il gioco sul server o che danno vantaggi non si possono installare, e quelle proibite vengono tolte da sole.'));
+    box.appendChild(el('p', null, 'Questa informazione resta sempre nella sezione Extra.'));
+    var b = el('button', 'ext-btn ext-btn-installa');
+    b.type = 'button';
+    b.disabled = true;
+    var n = ATTESA_AVVISO_S;
+    b.textContent = 'Ho letto (' + n + ')';
+    box.appendChild(b);
+    document.getElementById('sez-extra').appendChild(box);
+    var t = setInterval(function () {
+      n -= 1;
+      if (n > 0) { b.textContent = 'Ho letto (' + n + ')'; return; }
+      clearInterval(t);
+      b.disabled = false;
+      b.textContent = 'Ho capito';
+      b.addEventListener('click', function () {
+        try { localStorage.setItem(AVVISO_KEY, '1'); } catch (e) {}
+        box.remove();
+        continua();
+      });
+    }, 1000);
+  }
+
   function installa(p) {
     if (pendenti[p.project_id]) return;
-    pendenti[p.project_id] = true;
-    ridisegna();
-    var tipo = FACETS[p.project_type] ? p.project_type : (scheda !== 'installati' ? scheda : 'mod');
-    invia({ tipo: 'extra_installa', edizione: edizione, progetto: p.project_id, tipoProgetto: tipo, titolo: p.title || p.slug || p.project_id, slug: p.slug || '' });
+    avvisoPrimaVolta(function () {
+      pendenti[p.project_id] = true;
+      ridisegna();
+      var tipo = FACETS[p.project_type] ? p.project_type : (scheda !== 'installati' ? scheda : 'mod');
+      invia({ tipo: 'extra_installa', edizione: edizione, progetto: p.project_id, tipoProgetto: tipo, titolo: p.title || p.slug || p.project_id, slug: p.slug || '' });
+    });
   }
 
   function togli(progetto) {

@@ -386,8 +386,7 @@
     box.setAttribute('role', 'dialog');
     box.setAttribute('aria-modal', 'true');
     box.appendChild(el('h3', null, 'Prima di installare un extra'));
-    box.appendChild(el('p', null, 'Gli extra restano sul tuo PC, e servono solo a te. Non sono mod del modpack: le mod che cambiano il gioco sul server o che danno vantaggi non si possono installare, e quelle proibite vengono tolte da sole.'));
-    box.appendChild(el('p', null, 'Questa informazione resta sempre nella sezione Extra.'));
+    box.appendChild(el('p', null, 'Gli extra restano sul tuo PC. Le mod che cambiano il gioco sul server o danno vantaggi non si possono installare.'));
     var b = el('button', 'ext-btn ext-btn-installa');
     b.type = 'button';
     b.disabled = true;

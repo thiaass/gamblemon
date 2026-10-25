@@ -162,6 +162,7 @@
       return api('/proposte', 'POST', { categoria: oggetto.categoria, titolo: oggetto.titolo, testo: oggetto.testo, link: oggetto.link, immagini: ims });
     }).then(function (d) {
       esito(true, d.testo);
+      caricaMie();
     }).catch(function (e) { esito(false, e.message); });
   }
 
@@ -331,7 +332,7 @@
     b.onclick = function () {
       b.disabled = true;
       api('/proposte/' + p.id, 'PUT', { categoria: p.categoria, titolo: titolo.value, testo: testo.value, link: p.link })
-        .then(function () { carica(); })
+        .then(function () { caricaMie(); })
         .catch(function (e) { esito.textContent = e.message; b.disabled = false; });
     };
     f.appendChild(titolo); f.appendChild(testo); f.appendChild(b); f.appendChild(esito);
@@ -381,6 +382,21 @@
     }).catch(function (e) { lista.textContent = ''; lista.appendChild(el('p', 'com-vuoto errore', e.message)); });
   }
 
+  // «Le mie proposte»: sotto il form di Proponi (thias 25/10)
+  function caricaMie() {
+    var box = $('com-mie-lista');
+    if (!box) return;
+    box.textContent = '';
+    if (!collegato) { box.appendChild(el('p', 'com-vuoto', 'Collega lapp per vedere le tue proposte.')); return; }
+    box.appendChild(el('p', 'com-vuoto', 'Carico…'));
+    api('/proposte/mie').then(function (d) {
+      box.textContent = '';
+      if (!d.proposte.length) { box.appendChild(el('p', 'com-vuoto', 'Non hai ancora mandato proposte.')); return; }
+      d.proposte.forEach(function (p) { box.appendChild(carta(p, true)); });
+    }).catch(function (e) { box.textContent = ''; box.appendChild(el('p', 'com-vuoto errore', e.message)); });
+  }
+
+  // le schede: prima le idee della community, poi Proponi (con sotto le sue proposte)
   function vai(s) {
     scheda = s;
     document.querySelectorAll('.com-scheda').forEach(function (b) {
@@ -389,10 +405,11 @@
       b.setAttribute('aria-selected', su ? 'true' : 'false');
     });
     $('form-proposta').hidden = s !== 'proponi';
+    $('com-mie').hidden = s !== 'proponi';
     $('com-collega').hidden = s !== 'proponi' || collegato;
     $('com-elenco').hidden = s === 'proponi';
     $('com-ordina').hidden = s !== 'idee';
-    if (s !== 'proponi') carica();
+    if (s === 'proponi') caricaMie(); else carica();
   }
 
   function init() {
@@ -408,7 +425,7 @@
     controllaIo();
     // i premi possono cambiare (idee nuove approvate): si ricontrolla ogni tanto
     setInterval(aggiornaPremi, 120000);
-    vai('proponi');
+    vai('idee');
   }
 
   window.Comunita = { invia: invia };

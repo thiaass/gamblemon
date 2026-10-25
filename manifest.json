@@ -1359,9 +1359,9 @@
   }
  },
  "app": {
-  "versione": 8,
-  "url": "https://github.com/thiaass/gamblemon/releases/download/app-8/Gamblemon-app.zip",
-  "sha1": "02918791d4f240fa47a63d5bee29b439dde78780"
+  "versione": 9,
+  "url": "https://github.com/thiaass/gamblemon/releases/download/app-9/Gamblemon-app.zip",
+  "sha1": "4b27ea452a5de481bf4b7222189f7ad8f1a3fde4"
  },
  "pack": {
   "versione": "2.15.2",

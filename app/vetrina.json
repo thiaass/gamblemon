@@ -1,49 +1,57 @@
 {
   "tema": "halloween",
   "aggiornamento": {
-    "versione": "2.15",
-    "nome": "PokéHalloween",
-    "data": "2026-10-24",
-    "immagine": "img/aggiornamento-2.15.webp",
-    "testo": "Zucche che ti fissano, fantasmi senza vergogna e uno Snorlax con una fame mostruosa. Dolcetto o Pokéball?",
+    "versione": "2.17",
+    "nome": "Ready for battle",
+    "data": "2026-10-26",
+    "immagine": "img/aggiornamento-2.17.webp",
+    "testo": "Le lotte non sono mai state così belle da guardare: telecamera da film, musiche nuove e colpi critici che fanno tremare lo schermo. Pronto a combattere?",
     "dettagli": [
       {
-        "titolo": "Evento PokéHalloween",
+        "titolo": "Lotte da film",
         "punti": [
-          "Dal 24 ottobre al 2 novembre: dodici quest spettrali, ognuna con almeno 900 Doblonantichi.",
-          "Ogni quest regala la skin di Halloween di una linea evolutiva intera, pre-evoluzioni comprese.",
-          "Chi le completa tutte riceve altri 10.000 Doblonantichi.",
-          "Le quest si trovano nel menu Quest, nella scheda Halloween."
+          "In ogni lotta, selvatici compresi, la telecamera gira attorno al campo mentre scegli la mossa.",
+          "Poi stacca su chi attacca, su chi prende il colpo e sul KO; la Mega si vede sempre di fronte.",
+          "C spegne e riaccende le cinematiche, R ti ridà la visuale per muoverti."
         ]
       },
       {
-        "titolo": "Le skin",
+        "titolo": "Entrate in scena",
         "punti": [
-          "Gengar Fantasma, Diglett Sepolto, Applin Zucca Maledetta, Mimikyu Strega, Golett Infernale, Aerodactyl Scheletro.",
-          "Snorlax Zucca Ingorda, Squirtle Corrotto, Clefairy Demoniaca, Sylveon Spettrale, Decidueye Mietitore, Primarina Sirena Oscura.",
-          "Aerodactyl Scheletro si ottiene facendo rinascere il fossile di Aerodactyl.",
-          "Le skin si mettono e si tolgono dalla scheda Skin del Pokémenu."
+          "Contro allenatori, NPC e giocatori parte la schermata VS.",
+          "Contro i selvatici la telecamera si avvicina al Pokémon e il suo nome entra su una fascia."
         ]
       },
       {
-        "titolo": "Zucche per la linea di Bulbasaur",
+        "titolo": "Una musica per ogni lotta",
         "punti": [
-          "Bulbasaur, Ivysaur e Venusaur possono indossare una zucca o una jack o’ lantern come cosmetico."
+          "Selvatici, rari, leggendari, allenatori, giocatori e sfide con puntata hanno ognuno il suo tema.",
+          "La musica delle Mega parte quando un Pokémon megaevolve e resta finché è in campo.",
+          "La musica sta sotto versi e mosse, così si sentono sempre."
         ]
       },
       {
-        "titolo": "Spawn e correzioni",
+        "titolo": "Tutto quello che succede, a colpo d’occhio",
         "punti": [
-          "Spawn dei Pokémon rari ribilanciati: Raro al 3%, Epico 1 su 200.",
-          "Risolto il crash del PC con Oricorio in forma Pa’u."
+          "CRITICO!, Super efficace! e il danno compaiono sopra i Pokémon.",
+          "Le mosse più potenti fanno tremare lo schermo.",
+          "Dell’avversario vedi i PS veri e le statistiche che salgono o scendono.",
+          "Tasto destro sul Pokémon di un giocatore in lotta, fino a 50 blocchi: guardi la sua lotta."
         ]
       },
       {
-        "titolo": "Aggiornamenti più leggeri",
+        "titolo": "Menu più comodi",
         "punti": [
-          "La grafica di Gamblemon arriva dal server quando entri: niente più download per le modifiche alle texture.",
-          "Gli aggiornamenti che toccano solo il server non chiedono più di riavviare il gioco.",
-          "Arriva l’app Gamblemon: niente più CurseForge, il modpack si aggiorna da solo e Gioca ti porta dritto nel server."
+          "H ti porta a casa e L alla Lobby.",
+          "La Guida ha un tasto suo, separato da Aiuto, con i contenuti nuovi.",
+          "Pokémenù, Avvistamenti, Casa e Quest ritoccati."
+        ]
+      },
+      {
+        "titolo": "Halloween continua",
+        "punti": [
+          "Pumpkaboo e Gourgeist nelle foreste.",
+          "Per la quest dei Pokémon Spettro forti vale tutta la linea di Gengar, Mimikyu e Dusknoir, e quelle linee si trovano più spesso."
         ]
       }
     ]

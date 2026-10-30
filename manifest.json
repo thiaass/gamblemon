@@ -1,6 +1,6 @@
 {
  "nome": "Gamblemon",
- "versione": "2.17.2",
+ "versione": "2.17.3",
  "minecraft": "1.21.1",
  "fabric": "0.19.5",
  "edizioni": {
@@ -400,11 +400,11 @@
      "byte": 584731
     },
     {
-     "file": "gamblemon-2.17.2.jar",
+     "file": "gamblemon-2.17.3.jar",
      "cartella": "mods",
-     "url": "https://thiaass.github.io/gamblemon/file/gamblemon-2.17.2.jar",
-     "sha1": "765afd61e6c1f02008b2de66a07e15a5b777c752",
-     "byte": 31913630
+     "url": "https://thiaass.github.io/gamblemon/file/gamblemon-2.17.3.jar",
+     "sha1": "9cec9eb9f833ba03a832a85f1cb46c4817fd69ce",
+     "byte": 32471501
     },
     {
      "file": "CobblemonMoreCosmetics Release v1.1.7-1.21.x.zip",
@@ -851,11 +851,11 @@
      "byte": 584731
     },
     {
-     "file": "gamblemon-2.17.2.jar",
+     "file": "gamblemon-2.17.3.jar",
      "cartella": "mods",
-     "url": "https://thiaass.github.io/gamblemon/file/gamblemon-2.17.2.jar",
-     "sha1": "765afd61e6c1f02008b2de66a07e15a5b777c752",
-     "byte": 31913630
+     "url": "https://thiaass.github.io/gamblemon/file/gamblemon-2.17.3.jar",
+     "sha1": "9cec9eb9f833ba03a832a85f1cb46c4817fd69ce",
+     "byte": 32471501
     },
     {
      "file": "CobblemonMoreCosmetics Release v1.1.7-1.21.x.zip",
@@ -1309,11 +1309,11 @@
      "byte": 584731
     },
     {
-     "file": "gamblemon-2.17.2.jar",
+     "file": "gamblemon-2.17.3.jar",
      "cartella": "mods",
-     "url": "https://thiaass.github.io/gamblemon/file/gamblemon-2.17.2.jar",
-     "sha1": "765afd61e6c1f02008b2de66a07e15a5b777c752",
-     "byte": 31913630
+     "url": "https://thiaass.github.io/gamblemon/file/gamblemon-2.17.3.jar",
+     "sha1": "9cec9eb9f833ba03a832a85f1cb46c4817fd69ce",
+     "byte": 32471501
     },
     {
      "file": "CobblemonMoreCosmetics Release v1.1.7-1.21.x.zip",
@@ -1364,9 +1364,9 @@
   "sha1": "4b27ea452a5de481bf4b7222189f7ad8f1a3fde4"
  },
  "pack": {
-  "versione": "2.17.1b",
-  "sha1": "1acdeebb4b2b53a4e60123ccbcdee14592b1f769",
-  "url": "https://thiaass.github.io/gamblemon/pack/gamblemon-pack-2.17.1b.zip",
-  "urlAlt": "https://github.com/thiaass/gamblemon/releases/download/pack-2.17.1b/gamblemon-pack-2.17.1b.zip"
+  "versione": "2.17.3",
+  "sha1": "d371cac43fdca669dd167d24474f905d8ec6102e",
+  "url": "https://thiaass.github.io/gamblemon/pack/gamblemon-pack-2.17.3.zip",
+  "urlAlt": "https://github.com/thiaass/gamblemon/releases/download/pack-2.17.3/gamblemon-pack-2.17.3.zip"
  }
 }

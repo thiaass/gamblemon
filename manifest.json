@@ -1,6 +1,6 @@
 {
  "nome": "Gamblemon",
- "versione": "2.17.3",
+ "versione": "2.17.4",
  "minecraft": "1.21.1",
  "fabric": "0.19.5",
  "edizioni": {
@@ -400,11 +400,11 @@
      "byte": 584731
     },
     {
-     "file": "gamblemon-2.17.3.jar",
+     "file": "gamblemon-2.17.4.jar",
      "cartella": "mods",
-     "url": "https://thiaass.github.io/gamblemon/file/gamblemon-2.17.3.jar",
-     "sha1": "9cec9eb9f833ba03a832a85f1cb46c4817fd69ce",
-     "byte": 32471501
+     "url": "https://thiaass.github.io/gamblemon/file/gamblemon-2.17.4.jar",
+     "sha1": "af006462e2993a2e8245f5b11a031df5271c9fd5",
+     "byte": 32505535
     },
     {
      "file": "CobblemonMoreCosmetics Release v1.1.7-1.21.x.zip",
@@ -851,11 +851,11 @@
      "byte": 584731
     },
     {
-     "file": "gamblemon-2.17.3.jar",
+     "file": "gamblemon-2.17.4.jar",
      "cartella": "mods",
-     "url": "https://thiaass.github.io/gamblemon/file/gamblemon-2.17.3.jar",
-     "sha1": "9cec9eb9f833ba03a832a85f1cb46c4817fd69ce",
-     "byte": 32471501
+     "url": "https://thiaass.github.io/gamblemon/file/gamblemon-2.17.4.jar",
+     "sha1": "af006462e2993a2e8245f5b11a031df5271c9fd5",
+     "byte": 32505535
     },
     {
      "file": "CobblemonMoreCosmetics Release v1.1.7-1.21.x.zip",
@@ -1309,11 +1309,11 @@
      "byte": 584731
     },
     {
-     "file": "gamblemon-2.17.3.jar",
+     "file": "gamblemon-2.17.4.jar",
      "cartella": "mods",
-     "url": "https://thiaass.github.io/gamblemon/file/gamblemon-2.17.3.jar",
-     "sha1": "9cec9eb9f833ba03a832a85f1cb46c4817fd69ce",
-     "byte": 32471501
+     "url": "https://thiaass.github.io/gamblemon/file/gamblemon-2.17.4.jar",
+     "sha1": "af006462e2993a2e8245f5b11a031df5271c9fd5",
+     "byte": 32505535
     },
     {
      "file": "CobblemonMoreCosmetics Release v1.1.7-1.21.x.zip",
